@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "date": "2026-11-14",
-  "generatedAt": "2026-11-14T13:01:19-05:00",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T21:13:16-05:00",
   "dataAsOf": "2026-11-13",
   "regime": {
     "vix": 19.3,
@@ -15,6 +15,29 @@
       "eventDay": false
     }
   },
+  "universe": [
+    "XSP",
+    "QQQ",
+    "IWM",
+    "DIA",
+    "TLT",
+    "GLD",
+    "SLV",
+    "USO",
+    "XLE",
+    "XLF",
+    "XLK",
+    "XBI",
+    "SMH",
+    "AAPL",
+    "AMZN",
+    "MSFT",
+    "META",
+    "NVDA",
+    "AMD",
+    "JPM",
+    "TQQQ"
+  ],
   "tickers": [
     {
       "ticker": "XSP",
@@ -34,7 +57,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IV30 18.6 <= HV30 21.2; Range: SPX close 7561.67 within 1.5% of SMA20 7613.26 and SMA50 7667.46",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "QQQ",
@@ -54,7 +78,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IV30 28.7 <= HV30 34.6; Range: close 679.89, SMA20 695.45, SMA50 717.87 (latest close reads Down, 1 of 2 closes to confirm)",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "IWM",
@@ -74,7 +99,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IVR 14.6 < 30; Range: close 277.54 within 1.5% of SMA20 278.38 and SMA50 280.76",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "DIA",
@@ -94,7 +120,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IV30 16.5 <= HV30 20.1; Range: close 523.15 within 1.5% of SMA20 522.11 and SMA50 519.26",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "TLT",
@@ -118,7 +145,8 @@
       },
       "status": "filtered",
       "reason": "ATM spread 0.06 > 0.05; Warning: ex-dividend date not announced; estimated ~2026-12-03 from payment history (on/before expiration); Range: close 79.38 within 1.5% of SMA50 80.21 (SMA20 81.09)",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "GLD",
@@ -138,7 +166,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IV30 25.5 <= HV30 27.6; Down: close 355.45 below SMA20 368.78 and SMA50 380.91",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "SLV",
@@ -158,7 +187,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "ATM spread 0.07 > 0.05; Down: close 44.13 below SMA20 47.73 and SMA50 52.87",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "USO",
@@ -178,7 +208,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IVR 17.1 < 30; Range: close 145.58, SMA20 156.06, SMA50 152.81 not aligned",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "XLE",
@@ -198,7 +229,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IV30 26.1 <= HV30 30.8; Range: close 64.96 within 1.5% of SMA50 64.99 (SMA20 66.17)",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "XLF",
@@ -218,7 +250,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IVR 9.5 < 30; Up: close 58.68 above SMA20 57.06 and SMA50 55.97",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "XLK",
@@ -238,7 +271,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IV30 35.4 <= HV30 43.7; Down: close 170.28 below SMA20 178.66 and SMA50 187.10",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "XBI",
@@ -258,7 +292,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IV30 33.5 <= HV30 41.5; Range: close 150.55, SMA20 153.42, SMA50 154.26 (latest close reads Down, 1 of 2 closes to confirm)",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "SMH",
@@ -278,7 +313,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IV30 52.2 <= HV30 63.5; Down: close 486.75 below SMA20 518.14 and SMA50 559.80",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "AAPL",
@@ -290,15 +326,16 @@
       "trend": "Up",
       "earnings": "2027-01-28",
       "liquidity": "Thin",
-      "support": 340.0,
-      "resistance": null,
+      "support": 352.5,
+      "resistance": 362.5,
       "rsi": 60.6,
       "z20": 1.74,
       "streak": 1,
       "stretch": null,
       "status": "filtered",
       "reason": "IVR 26.7 < 30; Up: close 356.27 above SMA20 346.15 and SMA50 339.04",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "AMZN",
@@ -318,7 +355,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IV30 36.0 <= HV30 40.7; Up: close 266.66 above SMA20 257.33 and SMA50 254.81",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "MSFT",
@@ -338,7 +376,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IVR 28.4 < 30; Range: close 523.88 within 1.5% of SMA20 529.39 and SMA50 519.00",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "META",
@@ -358,7 +397,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "ATM spread 1.10 > 0.10; Warning: ex-dividend date not announced; estimated ~2026-12-21 from payment history (after expiration); Down: close 641.69, SMA20 637.06, SMA50 679.81 (latest close reads Range, 1 of 2 closes to confirm)",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "NVDA",
@@ -370,8 +410,8 @@
       "trend": "Down",
       "earnings": "2026-11-17",
       "liquidity": "Thin",
-      "support": null,
-      "resistance": 200.0,
+      "support": 150.0,
+      "resistance": 180.0,
       "rsi": 24.9,
       "z20": -1.85,
       "streak": -2,
@@ -382,7 +422,8 @@
       },
       "status": "filtered",
       "reason": "earnings 2026-11-17 on/before expiration 2026-12-18; Down: close 162.85 below SMA20 198.69 and SMA50 214.65",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "AMD",
@@ -402,7 +443,8 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IV30 72.3 <= HV30 117.1; Range: close 534.06 between SMA20 519.02 and SMA50 554.55",
-      "trade": null
+      "trade": null,
+      "call": null
     },
     {
       "ticker": "JPM",
@@ -422,7 +464,29 @@
       "stretch": null,
       "status": "filtered",
       "reason": "IVR 18.8 < 30; Range: close 346.19, SMA20 339.04, SMA50 340.42 not aligned",
-      "trade": null
+      "trade": null,
+      "call": null
+    },
+    {
+      "ticker": "TQQQ",
+      "price": 57.68,
+      "ivr": 43.8,
+      "iv": 83.8,
+      "hv": 101.6,
+      "mcap": null,
+      "trend": "Down",
+      "earnings": null,
+      "liquidity": "Thin",
+      "support": null,
+      "resistance": null,
+      "rsi": 40.3,
+      "z20": -0.86,
+      "streak": -2,
+      "stretch": null,
+      "status": "filtered",
+      "reason": "IV30 83.8 <= HV30 101.6; Down: close 57.68 below SMA20 63.33 and SMA50 70.96",
+      "trade": null,
+      "call": null
     }
   ]
 }
