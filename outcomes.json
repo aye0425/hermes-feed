@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-17",
   "rulesVersion": "b16e4ba3",
-  "open": 17,
-  "resolved": 0,
+  "open": 38,
+  "resolved": 1,
   "overall": {
     "n": 0,
     "winRate": 0.0,
@@ -25,18 +25,50 @@
     {
       "group": "Filtered (all)",
       "kind": "filtered",
-      "n": 0,
+      "n": 1,
       "winRate": 0.0,
-      "expectancy": 0.0,
-      "total": 0.0
+      "expectancy": -29.0,
+      "total": -29.0
+    },
+    {
+      "group": "Filtered: IV Rank under 30",
+      "kind": "filter",
+      "n": 1,
+      "winRate": 0.0,
+      "expectancy": -29.0,
+      "total": -29.0
+    },
+    {
+      "group": "Filtered: IV at or below realized",
+      "kind": "filter",
+      "n": 1,
+      "winRate": 0.0,
+      "expectancy": -29.0,
+      "total": -29.0
+    },
+    {
+      "group": "Filtered: credit below minimum",
+      "kind": "filter",
+      "n": 1,
+      "winRate": 0.0,
+      "expectancy": -29.0,
+      "total": -29.0
+    },
+    {
+      "group": "Filtered: wide option spreads",
+      "kind": "filter",
+      "n": 1,
+      "winRate": 0.0,
+      "expectancy": -29.0,
+      "total": -29.0
     },
     {
       "group": "IV Rank under 30",
       "kind": "ivr",
-      "n": 0,
+      "n": 1,
       "winRate": 0.0,
-      "expectancy": 0.0,
-      "total": 0.0
+      "expectancy": -29.0,
+      "total": -29.0
     },
     {
       "group": "IV Rank 30-50",
@@ -57,10 +89,10 @@
     {
       "group": "Put credit spread",
       "kind": "structure",
-      "n": 0,
+      "n": 1,
       "winRate": 0.0,
-      "expectancy": 0.0,
-      "total": 0.0
+      "expectancy": -29.0,
+      "total": -29.0
     },
     {
       "group": "Call credit spread",
@@ -79,12 +111,20 @@
       "total": 0.0
     },
     {
+      "group": "VIX normal",
+      "kind": "regime",
+      "n": 1,
+      "winRate": 0.0,
+      "expectancy": -29.0,
+      "total": -29.0
+    },
+    {
       "group": "ETF",
       "kind": "type",
-      "n": 0,
+      "n": 1,
       "winRate": 0.0,
-      "expectancy": 0.0,
-      "total": 0.0
+      "expectancy": -29.0,
+      "total": -29.0
     },
     {
       "group": "Single stock",
@@ -135,6 +175,19 @@
       "total": 0.0
     }
   ],
-  "recent": [],
+  "recent": [
+    {
+      "date": "2026-11-16",
+      "ticker": "XLF",
+      "structure": "Put credit spread",
+      "strikes": "57/55",
+      "credit": 0.28,
+      "shadow": true,
+      "exit": "Stop",
+      "exitDate": "2026-11-17",
+      "pl": -29.0,
+      "days": 1
+    }
+  ],
   "proposal": null
 }
