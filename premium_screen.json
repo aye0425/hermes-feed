@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T10:00:29-05:00",
-  "dataAsOf": "2026-11-17",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T10:00:29-05:00",
+  "dataAsOf": "2026-11-18",
   "regime": {
-    "vix": 22.87,
-    "vix3m": 22.91,
-    "spy1d": -0.08,
-    "spy5d": -1.41,
+    "vix": 25.8,
+    "vix3m": 25.18,
+    "spy1d": 0.32,
+    "spy5d": -3.29,
     "events": "none",
     "kill": {
-      "backwardation": false,
+      "backwardation": true,
       "spyDrop": false,
       "eventDay": false
     }
@@ -42,269 +42,31 @@
   "tickers": [
     {
       "ticker": "XSP",
-      "price": 740.61,
-      "ivr": 60.8,
-      "iv": 22.8,
+      "price": 732.28,
+      "ivr": 69.9,
+      "iv": 25.2,
       "hv": 22.0,
-      "mcap": null,
-      "trend": "Range",
-      "earnings": null,
-      "liquidity": "Thin",
-      "support": null,
-      "resistance": null,
-      "rsi": 40.2,
-      "z20": -1.59,
-      "streak": -3,
-      "stretch": null,
-      "status": "filtered",
-      "reason": "ATM spread 2.36 > 0.05; Range: SPX close 7416.59, SMA20 7599.55, SMA50 7661.42 (latest close reads Down, 1 of 2 closes to confirm)",
-      "trade": null,
-      "call": null
-    },
-    {
-      "ticker": "QQQ",
-      "price": 662.38,
-      "ivr": 90.9,
-      "iv": 32.9,
-      "hv": 35.5,
       "mcap": null,
       "trend": "Down",
       "earnings": null,
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 37.8,
-      "z20": -1.38,
-      "streak": -3,
+      "rsi": 37.2,
+      "z20": -1.92,
+      "streak": -4,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 32.9 <= HV30 35.5; Down: close 661.75 below SMA20 692.62 and SMA50 716.72",
+      "reason": "No new entries: kill switch on (backwardation); Down: SPX close 7340.53 below SMA20 7580.95 and SMA50 7654.76",
       "trade": null,
-      "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 705,
-        "delta": 0.2,
-        "bid": 5.11,
-        "ask": 5.18,
-        "mid": 5.14,
-        "ladder": [
-          {
-            "strike": 691,
-            "delta": 0.3,
-            "mid": 9.13
-          },
-          {
-            "strike": 698,
-            "delta": 0.25,
-            "mid": 6.92
-          },
-          {
-            "strike": 705,
-            "delta": 0.2,
-            "mid": 5.14
-          },
-          {
-            "strike": 713,
-            "delta": 0.15,
-            "mid": 3.51
-          },
-          {
-            "strike": 724,
-            "delta": 0.1,
-            "mid": 2.02
-          },
-          {
-            "strike": 739,
-            "delta": 0.05,
-            "mid": 0.89
-          }
-        ]
-      }
+      "call": null
     },
     {
-      "ticker": "IWM",
-      "price": 272.46,
-      "ivr": 33.1,
-      "iv": 25.5,
-      "hv": 25.2,
-      "mcap": null,
-      "trend": "Range",
-      "earnings": null,
-      "liquidity": "Thin",
-      "support": null,
-      "resistance": null,
-      "rsi": 42.9,
-      "z20": -1.55,
-      "streak": -3,
-      "stretch": null,
-      "status": "filtered",
-      "reason": "ATM spread 0.16 > 0.05; Warning: ex-dividend date not announced; estimated ~2026-12-15 from payment history (on/before expiration); Range: close 272.94, SMA20 278.46, SMA50 280.30 (latest close reads Down, 1 of 2 closes to confirm)",
-      "trade": null,
-      "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 286,
-        "delta": 0.19,
-        "bid": 1.53,
-        "ask": 1.56,
-        "mid": 1.54,
-        "ladder": [
-          {
-            "strike": 281,
-            "delta": 0.31,
-            "mid": 2.96
-          },
-          {
-            "strike": 283,
-            "delta": 0.26,
-            "mid": 2.32
-          },
-          {
-            "strike": 286,
-            "delta": 0.19,
-            "mid": 1.54
-          },
-          {
-            "strike": 288,
-            "delta": 0.16,
-            "mid": 1.17
-          },
-          {
-            "strike": 292,
-            "delta": 0.1,
-            "mid": 0.65
-          },
-          {
-            "strike": 298,
-            "delta": 0.05,
-            "mid": 0.29
-          }
-        ]
-      }
-    },
-    {
-      "ticker": "DIA",
-      "price": 513.44,
-      "ivr": 55.8,
-      "iv": 19.5,
-      "hv": 20.4,
-      "mcap": null,
-      "trend": "Range",
-      "earnings": null,
-      "liquidity": "Thin",
-      "support": null,
-      "resistance": null,
-      "rsi": 45.7,
-      "z20": -1.3,
-      "streak": -1,
-      "stretch": null,
-      "status": "filtered",
-      "reason": "IV30 19.5 <= HV30 20.4; Range: close 515.68 within 1.5% of SMA20 521.95 and SMA50 518.89",
-      "trade": null,
-      "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 533,
-        "delta": 0.2,
-        "bid": 2.21,
-        "ask": 2.38,
-        "mid": 2.29,
-        "ladder": [
-          {
-            "strike": 526,
-            "delta": 0.3,
-            "mid": 4.25
-          },
-          {
-            "strike": 529,
-            "delta": 0.25,
-            "mid": 3.3
-          },
-          {
-            "strike": 533,
-            "delta": 0.2,
-            "mid": 2.29
-          },
-          {
-            "strike": 537,
-            "delta": 0.15,
-            "mid": 1.53
-          },
-          {
-            "strike": 542,
-            "delta": 0.1,
-            "mid": 0.94
-          },
-          {
-            "strike": 550,
-            "delta": 0.05,
-            "mid": 0.42
-          }
-        ]
-      }
-    },
-    {
-      "ticker": "TLT",
-      "price": 79.26,
-      "ivr": 48.0,
-      "iv": 14.1,
-      "hv": 11.9,
-      "mcap": null,
-      "trend": "Range",
-      "earnings": null,
-      "liquidity": "OK",
-      "support": null,
-      "resistance": null,
-      "rsi": 39.0,
-      "z20": -2.02,
-      "streak": 0,
-      "stretch": {
-        "dir": "down",
-        "level": "mild",
-        "note": "RSI 39, 2.0 standard deviations under its 20-day average."
-      },
-      "status": "filtered",
-      "reason": "credit 16.5% of width, needs 33.3%; Warning: ex-dividend date not announced; estimated ~2026-12-03 from payment history (on/before expiration); Range: close 79.38 within 1.5% of SMA50 80.15 (SMA20 81.09)",
-      "trade": null,
-      "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 82,
-        "delta": 0.18,
-        "bid": 0.28,
-        "ask": 0.29,
-        "mid": 0.29,
-        "ladder": [
-          {
-            "strike": 81,
-            "delta": 0.28,
-            "mid": 0.47
-          },
-          {
-            "strike": 82,
-            "delta": 0.18,
-            "mid": 0.29
-          },
-          {
-            "strike": 83,
-            "delta": 0.12,
-            "mid": 0.17
-          },
-          {
-            "strike": 85,
-            "delta": 0.05,
-            "mid": 0.08
-          }
-        ]
-      }
-    },
-    {
-      "ticker": "GLD",
-      "price": 353.87,
-      "ivr": 32.7,
-      "iv": 26.4,
-      "hv": 26.7,
+      "ticker": "QQQ",
+      "price": 662.57,
+      "ivr": 100.0,
+      "iv": 35.9,
+      "hv": 34.7,
       "mcap": null,
       "trend": "Down",
       "earnings": null,
@@ -312,838 +74,1150 @@
       "support": null,
       "resistance": null,
       "rsi": 36.5,
-      "z20": -1.79,
-      "streak": -1,
+      "z20": -1.43,
+      "streak": -4,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 26.4 <= HV30 26.7; Down: close 352.93 below SMA20 367.45 and SMA50 379.83",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 656.95 below SMA20 689.58 and SMA50 715.49",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 377,
-        "delta": 0.2,
-        "bid": 2.63,
-        "ask": 2.76,
-        "mid": 2.69,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 720,
+        "delta": 0.19,
+        "bid": 6.67,
+        "ask": 6.83,
+        "mid": 6.75,
         "ladder": [
           {
-            "strike": 368,
+            "strike": 700,
             "delta": 0.3,
-            "mid": 4.7
+            "mid": 12.5
           },
           {
-            "strike": 372,
+            "strike": 710,
             "delta": 0.25,
-            "mid": 3.7
+            "mid": 9.32
           },
           {
-            "strike": 377,
-            "delta": 0.2,
-            "mid": 2.69
+            "strike": 720,
+            "delta": 0.19,
+            "mid": 6.75
           },
           {
-            "strike": 382,
+            "strike": 730,
             "delta": 0.15,
-            "mid": 1.96
+            "mid": 4.79
           },
           {
-            "strike": 390,
+            "strike": 745,
             "delta": 0.1,
-            "mid": 1.19
+            "mid": 2.78
           },
           {
-            "strike": 403,
+            "strike": 765,
             "delta": 0.05,
-            "mid": 0.57
+            "mid": 1.31
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "IWM",
+      "price": 271.64,
+      "ivr": 47.6,
+      "iv": 28.8,
+      "hv": 25.0,
+      "mcap": null,
+      "trend": "Down",
+      "earnings": null,
+      "liquidity": "Thin",
+      "support": null,
+      "resistance": null,
+      "rsi": 39.2,
+      "z20": -2.23,
+      "streak": -4,
+      "stretch": {
+        "dir": "down",
+        "level": "mild",
+        "note": "RSI 39, 2.2 standard deviations under its 20-day average."
+      },
+      "status": "filtered",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 269.05 below SMA20 278.12 and SMA50 279.79",
+      "trade": null,
+      "call": {
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 290,
+        "delta": 0.2,
+        "bid": 2.31,
+        "ask": 2.39,
+        "mid": 2.35,
+        "ladder": [
+          {
+            "strike": 285,
+            "delta": 0.28,
+            "mid": 3.71
+          },
+          {
+            "strike": 290,
+            "delta": 0.2,
+            "mid": 2.35
+          },
+          {
+            "strike": 295,
+            "delta": 0.14,
+            "mid": 1.42
+          },
+          {
+            "strike": 300,
+            "delta": 0.09,
+            "mid": 0.85
+          },
+          {
+            "strike": 305,
+            "delta": 0.06,
+            "mid": 0.51
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "DIA",
+      "price": 505.15,
+      "ivr": 70.0,
+      "iv": 21.3,
+      "hv": 21.0,
+      "mcap": null,
+      "trend": "Range",
+      "earnings": null,
+      "liquidity": "Thin",
+      "support": null,
+      "resistance": null,
+      "rsi": 39.9,
+      "z20": -2.4,
+      "streak": -2,
+      "stretch": {
+        "dir": "down",
+        "level": "mild",
+        "note": "RSI 40, 2.4 standard deviations under its 20-day average."
+      },
+      "status": "filtered",
+      "reason": "No new entries: kill switch on (backwardation); Range: close 507.31, SMA20 521.09, SMA50 518.48 not aligned",
+      "trade": null,
+      "call": {
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 530,
+        "delta": 0.21,
+        "bid": 3.45,
+        "ask": 3.8,
+        "mid": 3.62,
+        "ladder": [
+          {
+            "strike": 525,
+            "delta": 0.27,
+            "mid": 5.12
+          },
+          {
+            "strike": 530,
+            "delta": 0.21,
+            "mid": 3.62
+          },
+          {
+            "strike": 535,
+            "delta": 0.16,
+            "mid": 2.51
+          },
+          {
+            "strike": 545,
+            "delta": 0.09,
+            "mid": 1.18
+          },
+          {
+            "strike": 555,
+            "delta": 0.05,
+            "mid": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "TLT",
+      "price": 79.92,
+      "ivr": 46.7,
+      "iv": 14.2,
+      "hv": 11.9,
+      "mcap": null,
+      "trend": "Range",
+      "earnings": null,
+      "liquidity": "OK",
+      "support": null,
+      "resistance": null,
+      "rsi": 40.8,
+      "z20": -1.7,
+      "streak": 1,
+      "stretch": null,
+      "status": "filtered",
+      "reason": "No new entries: kill switch on (backwardation); Range: close 79.55 within 1.5% of SMA50 80.10 (SMA20 81.06)",
+      "trade": null,
+      "call": {
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 84,
+        "delta": 0.17,
+        "bid": 0.35,
+        "ask": 0.36,
+        "mid": 0.35,
+        "ladder": [
+          {
+            "strike": 82,
+            "delta": 0.31,
+            "mid": 0.73
+          },
+          {
+            "strike": 83,
+            "delta": 0.23,
+            "mid": 0.51
+          },
+          {
+            "strike": 84,
+            "delta": 0.17,
+            "mid": 0.35
+          },
+          {
+            "strike": 86,
+            "delta": 0.09,
+            "mid": 0.18
+          },
+          {
+            "strike": 88,
+            "delta": 0.05,
+            "mid": 0.11
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "GLD",
+      "price": 345.35,
+      "ivr": 35.0,
+      "iv": 26.5,
+      "hv": 26.7,
+      "mcap": null,
+      "trend": "Down",
+      "earnings": null,
+      "liquidity": "Thin",
+      "support": null,
+      "resistance": null,
+      "rsi": 36.3,
+      "z20": -1.63,
+      "streak": -2,
+      "stretch": null,
+      "status": "filtered",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 352.48 below SMA20 366.19 and SMA50 378.88",
+      "trade": null,
+      "call": {
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 380,
+        "delta": 0.19,
+        "bid": 3.4,
+        "ask": 3.55,
+        "mid": 3.47,
+        "ladder": [
+          {
+            "strike": 365,
+            "delta": 0.31,
+            "mid": 6.65
+          },
+          {
+            "strike": 370,
+            "delta": 0.26,
+            "mid": 5.35
+          },
+          {
+            "strike": 380,
+            "delta": 0.19,
+            "mid": 3.47
+          },
+          {
+            "strike": 385,
+            "delta": 0.16,
+            "mid": 2.79
+          },
+          {
+            "strike": 400,
+            "delta": 0.09,
+            "mid": 1.52
+          },
+          {
+            "strike": 420,
+            "delta": 0.05,
+            "mid": 0.74
           }
         ]
       }
     },
     {
       "ticker": "SLV",
-      "price": 43.12,
-      "ivr": 39.4,
-      "iv": 49.4,
-      "hv": 42.3,
+      "price": 40.93,
+      "ivr": 42.6,
+      "iv": 48.0,
+      "hv": 42.5,
       "mcap": null,
       "trend": "Down",
       "earnings": null,
-      "liquidity": "OK",
+      "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 28.6,
-      "z20": -2.0,
-      "streak": -3,
+      "rsi": 29.9,
+      "z20": -1.75,
+      "streak": 1,
       "stretch": {
         "dir": "down",
-        "level": "strong",
-        "note": "RSI 29, 2.0 standard deviations under its 20-day average."
+        "level": "mild",
+        "note": "RSI 30, 1.8 standard deviations under its 20-day average."
       },
       "status": "filtered",
-      "reason": "credit 19.0% of width, needs 25.0%; Down: close 42.39 below SMA20 47.27 and SMA50 52.52",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 42.64 below SMA20 46.80 and SMA50 52.19",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 48,
-        "delta": 0.21,
-        "bid": 0.61,
-        "ask": 0.64,
-        "mid": 0.62,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 48.5,
+        "delta": 0.2,
+        "bid": 0.75,
+        "ask": 0.78,
+        "mid": 0.77,
         "ladder": [
           {
-            "strike": 46,
-            "delta": 0.32,
-            "mid": 1.06
+            "strike": 45.5,
+            "delta": 0.31,
+            "mid": 1.32
           },
           {
             "strike": 47,
-            "delta": 0.26,
-            "mid": 0.81
+            "delta": 0.25,
+            "mid": 0.99
           },
           {
-            "strike": 48,
-            "delta": 0.21,
-            "mid": 0.62
+            "strike": 48.5,
+            "delta": 0.2,
+            "mid": 0.77
           },
           {
-            "strike": 50,
+            "strike": 50.5,
+            "delta": 0.15,
+            "mid": 0.55
+          },
+          {
+            "strike": 51,
             "delta": 0.14,
-            "mid": 0.37
-          },
-          {
-            "strike": 52,
-            "delta": 0.09,
-            "mid": 0.23
-          },
-          {
-            "strike": 54,
-            "delta": 0.06,
-            "mid": 0.16
+            "mid": 0.51
           }
         ]
       }
     },
     {
       "ticker": "USO",
-      "price": 142.02,
-      "ivr": 17.0,
-      "iv": 49.2,
-      "hv": 48.4,
+      "price": 138.22,
+      "ivr": 17.5,
+      "iv": 49.6,
+      "hv": 47.0,
       "mcap": null,
       "trend": "Range",
       "earnings": null,
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 37.3,
-      "z20": -1.45,
-      "streak": -2,
+      "rsi": 37.6,
+      "z20": -1.28,
+      "streak": 1,
       "stretch": null,
       "status": "filtered",
-      "reason": "IVR 17.0 < 30; Range: close 140.03, SMA20 155.02, SMA50 152.77 not aligned",
+      "reason": "No new entries: kill switch on (backwardation); Range: close 140.24, SMA20 154.01, SMA50 152.66 not aligned",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 163,
-        "delta": 0.2,
-        "bid": 2.01,
-        "ask": 2.3,
-        "mid": 2.15,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 170,
+        "delta": 0.18,
+        "bid": 2.4,
+        "ask": 2.88,
+        "mid": 2.64,
         "ladder": [
           {
-            "strike": 155,
+            "strike": 156,
             "delta": 0.3,
-            "mid": 3.47
+            "mid": 4.7
           },
           {
-            "strike": 158,
-            "delta": 0.25,
-            "mid": 2.93
+            "strike": 160,
+            "delta": 0.26,
+            "mid": 4.0
           },
           {
-            "strike": 163,
-            "delta": 0.2,
-            "mid": 2.15
+            "strike": 170,
+            "delta": 0.18,
+            "mid": 2.64
           }
         ]
       }
     },
     {
       "ticker": "XLE",
-      "price": 64.36,
-      "ivr": 58.0,
-      "iv": 28.4,
-      "hv": 31.1,
+      "price": 62.4,
+      "ivr": 63.6,
+      "iv": 29.8,
+      "hv": 29.6,
       "mcap": null,
       "trend": "Range",
       "earnings": null,
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 44.6,
-      "z20": -0.8,
-      "streak": -1,
+      "rsi": 43.5,
+      "z20": -0.83,
+      "streak": -2,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 28.4 <= HV30 31.1; Range: close 63.69, SMA20 65.96, SMA50 64.98 not aligned",
+      "reason": "No new entries: kill switch on (backwardation); Range: close 63.36, SMA20 65.73, SMA50 64.95 not aligned",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 69,
-        "delta": 0.2,
-        "bid": 0.54,
-        "ask": 0.57,
-        "mid": 0.55,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 67.5,
+        "delta": 0.24,
+        "bid": 0.89,
+        "ask": 0.93,
+        "mid": 0.91,
         "ladder": [
           {
             "strike": 67.5,
-            "delta": 0.29,
-            "mid": 0.89
-          },
-          {
-            "strike": 69,
-            "delta": 0.2,
-            "mid": 0.55
+            "delta": 0.24,
+            "mid": 0.91
           },
           {
             "strike": 70,
-            "delta": 0.16,
-            "mid": 0.4
+            "delta": 0.15,
+            "mid": 0.48
           },
           {
-            "strike": 71,
-            "delta": 0.12,
-            "mid": 0.29
-          },
-          {
-            "strike": 72.5,
-            "delta": 0.08,
-            "mid": 0.17
+            "strike": 75,
+            "delta": 0.05,
+            "mid": 0.15
           }
         ]
       }
     },
     {
       "ticker": "XLF",
-      "price": 57.88,
-      "ivr": 12.6,
-      "iv": 21.2,
-      "hv": 21.0,
+      "price": 56.78,
+      "ivr": 14.9,
+      "iv": 24.0,
+      "hv": 22.2,
       "mcap": null,
       "trend": "Up",
       "earnings": null,
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 57.9,
-      "z20": 0.9,
-      "streak": -1,
+      "rsi": 50.3,
+      "z20": -0.22,
+      "streak": -2,
       "stretch": null,
       "status": "filtered",
-      "reason": "IVR 12.6 < 30; Up: close 58.18 above SMA20 57.22 and SMA50 55.97",
+      "reason": "No new entries: kill switch on (backwardation); Up: close 57.07, SMA20 57.29, SMA50 55.96 (latest close reads Range, 1 of 2 closes to confirm)",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 61,
-        "delta": 0.16,
-        "bid": 0.21,
-        "ask": 0.28,
-        "mid": 0.24,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 60,
+        "delta": 0.22,
+        "bid": 0.48,
+        "ask": 0.53,
+        "mid": 0.51,
         "ladder": [
           {
+            "strike": 59,
+            "delta": 0.31,
+            "mid": 0.79
+          },
+          {
             "strike": 60,
-            "delta": 0.26,
-            "mid": 0.47
+            "delta": 0.22,
+            "mid": 0.51
           },
           {
             "strike": 61,
             "delta": 0.16,
-            "mid": 0.24
+            "mid": 0.31
           },
           {
             "strike": 62,
-            "delta": 0.09,
-            "mid": 0.12
+            "delta": 0.11,
+            "mid": 0.2
+          },
+          {
+            "strike": 65,
+            "delta": 0.05,
+            "mid": 0.05
           }
         ]
       }
     },
     {
       "ticker": "XLK",
-      "price": 164.65,
-      "ivr": 86.4,
-      "iv": 37.8,
-      "hv": 44.6,
+      "price": 164.63,
+      "ivr": 94.2,
+      "iv": 40.3,
+      "hv": 43.8,
       "mcap": null,
       "trend": "Down",
       "earnings": null,
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 35.1,
-      "z20": -1.47,
-      "streak": -3,
+      "rsi": 34.1,
+      "z20": -1.45,
+      "streak": -4,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 37.8 <= HV30 44.6; Down: close 164.76 below SMA20 177.60 and SMA50 186.65",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 163.26 below SMA20 176.49 and SMA50 186.16",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 177.5,
-        "delta": 0.22,
-        "bid": 1.7,
-        "ask": 2.21,
-        "mid": 1.96,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 185,
+        "delta": 0.18,
+        "bid": 1.64,
+        "ask": 2.26,
+        "mid": 1.95,
         "ladder": [
           {
-            "strike": 175,
-            "delta": 0.27,
-            "mid": 2.55
-          },
-          {
             "strike": 177.5,
-            "delta": 0.22,
-            "mid": 1.96
+            "delta": 0.29,
+            "mid": 3.75
           },
           {
-            "strike": 182.5,
-            "delta": 0.14,
-            "mid": 1.21
+            "strike": 180,
+            "delta": 0.25,
+            "mid": 3.04
           },
           {
             "strike": 185,
-            "delta": 0.11,
-            "mid": 0.74
+            "delta": 0.18,
+            "mid": 1.95
           },
           {
             "strike": 187.5,
-            "delta": 0.08,
-            "mid": 0.64
+            "delta": 0.15,
+            "mid": 1.52
+          },
+          {
+            "strike": 192.5,
+            "delta": 0.1,
+            "mid": 0.99
+          },
+          {
+            "strike": 200,
+            "delta": 0.06,
+            "mid": 0.45
           }
         ]
       }
     },
     {
       "ticker": "XBI",
-      "price": 145.84,
-      "ivr": 68.2,
-      "iv": 36.9,
-      "hv": 42.3,
+      "price": 146.87,
+      "ivr": 64.7,
+      "iv": 37.6,
+      "hv": 40.4,
       "mcap": null,
       "trend": "Down",
       "earnings": null,
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 41.3,
-      "z20": -2.2,
-      "streak": -3,
+      "rsi": 40.7,
+      "z20": -2.01,
+      "streak": -4,
       "stretch": {
         "dir": "down",
         "level": "mild",
-        "note": "RSI 41, 2.2 standard deviations under its 20-day average."
+        "note": "RSI 41, 2.0 standard deviations under its 20-day average."
       },
       "status": "filtered",
-      "reason": "IV30 36.9 <= HV30 42.3; Down: close 145.88 below SMA20 153.32 and SMA50 153.91",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 145.28 below SMA20 152.92 and SMA50 153.57",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 160,
-        "delta": 0.2,
-        "bid": 1.29,
-        "ask": 1.87,
-        "mid": 1.58,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 165,
+        "delta": 0.19,
+        "bid": 1.59,
+        "ask": 2.53,
+        "mid": 2.06,
         "ladder": [
           {
-            "strike": 155,
-            "delta": 0.3,
-            "mid": 2.83
-          },
-          {
-            "strike": 157,
-            "delta": 0.26,
-            "mid": 2.38
-          },
-          {
             "strike": 160,
-            "delta": 0.2,
-            "mid": 1.58
+            "delta": 0.27,
+            "mid": 3.26
           },
           {
-            "strike": 163,
-            "delta": 0.15,
-            "mid": 1.17
+            "strike": 165,
+            "delta": 0.19,
+            "mid": 2.06
           },
           {
-            "strike": 167,
-            "delta": 0.11,
-            "mid": 0.8
+            "strike": 170,
+            "delta": 0.14,
+            "mid": 1.45
+          },
+          {
+            "strike": 175,
+            "delta": 0.1,
+            "mid": 0.89
+          },
+          {
+            "strike": 183,
+            "delta": 0.05,
+            "mid": 0.43
           }
         ]
       }
     },
     {
       "ticker": "SMH",
-      "price": 463.77,
-      "ivr": 78.5,
-      "iv": 57.6,
-      "hv": 65.1,
+      "price": 465.49,
+      "ivr": 89.0,
+      "iv": 61.5,
+      "hv": 64.5,
       "mcap": null,
       "trend": "Down",
       "earnings": null,
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 35.6,
-      "z20": -1.52,
-      "streak": -3,
+      "rsi": 35.3,
+      "z20": -1.4,
+      "streak": -4,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 57.6 <= HV30 65.1; Down: close 461.90 below SMA20 513.81 and SMA50 557.70",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 460.10 below SMA20 509.50 and SMA50 555.43",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 525,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 545,
         "delta": 0.2,
-        "bid": 6.45,
-        "ask": 7.05,
-        "mid": 6.75,
+        "bid": 8.15,
+        "ask": 9.4,
+        "mid": 8.78,
         "ladder": [
           {
-            "strike": 505,
-            "delta": 0.3,
-            "mid": 11.62
-          },
-          {
             "strike": 515,
-            "delta": 0.24,
-            "mid": 9.0
-          },
-          {
-            "strike": 525,
-            "delta": 0.2,
-            "mid": 6.75
+            "delta": 0.31,
+            "mid": 16.07
           },
           {
             "strike": 530,
-            "delta": 0.18,
-            "mid": 5.88
+            "delta": 0.25,
+            "mid": 11.78
+          },
+          {
+            "strike": 545,
+            "delta": 0.2,
+            "mid": 8.78
+          },
+          {
+            "strike": 560,
+            "delta": 0.15,
+            "mid": 6.2
+          },
+          {
+            "strike": 580,
+            "delta": 0.11,
+            "mid": 3.92
           }
         ]
       }
     },
     {
       "ticker": "AAPL",
-      "price": 354.97,
-      "ivr": 36.8,
-      "iv": 26.8,
+      "price": 355.73,
+      "ivr": 47.3,
+      "iv": 28.0,
       "hv": 26.8,
-      "mcap": 5158.5,
+      "mcap": 5170.4,
       "trend": "Up",
       "earnings": "2027-01-28",
       "liquidity": "Thin",
       "support": 352.5,
       "resistance": 362.5,
-      "rsi": 57.0,
-      "z20": 1.03,
-      "streak": -1,
+      "rsi": 56.1,
+      "z20": 0.8,
+      "streak": -2,
       "stretch": null,
       "status": "filtered",
-      "reason": "ATM spread 0.30 > 0.10; Up: close 352.78 above SMA20 346.64 and SMA50 339.69",
+      "reason": "No new entries: kill switch on (backwardation); Up: close 351.91, SMA20 347.26, SMA50 340.41 (latest close reads Range, 1 of 2 closes to confirm)",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 375,
-        "delta": 0.2,
-        "bid": 2.48,
-        "ask": 2.56,
-        "mid": 2.52,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 385,
+        "delta": 0.21,
+        "bid": 3.35,
+        "ask": 3.8,
+        "mid": 3.58,
         "ladder": [
           {
-            "strike": 370,
-            "delta": 0.27,
-            "mid": 3.77
-          },
-          {
             "strike": 375,
-            "delta": 0.2,
-            "mid": 2.52
+            "delta": 0.3,
+            "mid": 6.2
           },
           {
             "strike": 380,
-            "delta": 0.14,
-            "mid": 1.62
+            "delta": 0.25,
+            "mid": 4.88
           },
           {
             "strike": 385,
-            "delta": 0.1,
-            "mid": 0.99
+            "delta": 0.21,
+            "mid": 3.58
           },
           {
-            "strike": 395,
-            "delta": 0.04,
-            "mid": 0.35
+            "strike": 390,
+            "delta": 0.16,
+            "mid": 2.64
+          },
+          {
+            "strike": 400,
+            "delta": 0.09,
+            "mid": 1.36
+          },
+          {
+            "strike": 410,
+            "delta": 0.05,
+            "mid": 0.65
           }
         ]
       }
     },
     {
       "ticker": "AMZN",
-      "price": 259.12,
-      "ivr": 45.6,
-      "iv": 39.3,
-      "hv": 42.4,
-      "mcap": 2802.8,
-      "trend": "Up",
+      "price": 264.12,
+      "ivr": 50.5,
+      "iv": 40.9,
+      "hv": 41.8,
+      "mcap": 2856.5,
+      "trend": "Range",
       "earnings": null,
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 49.6,
-      "z20": 0.07,
-      "streak": -2,
+      "rsi": 49.7,
+      "z20": 0.12,
+      "streak": 1,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 39.3 <= HV30 42.4; Up: close 257.75, SMA20 257.10, SMA50 254.80 (latest close reads Range, 1 of 2 closes to confirm)",
+      "reason": "No new entries: kill switch on (backwardation); Range: close 257.89 within 1.5% of SMA20 256.86 and SMA50 254.81",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 285,
-        "delta": 0.18,
-        "bid": 2.39,
-        "ask": 2.49,
-        "mid": 2.44,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 295,
+        "delta": 0.22,
+        "bid": 4.1,
+        "ask": 4.5,
+        "mid": 4.3,
         "ladder": [
           {
-            "strike": 275,
-            "delta": 0.3,
-            "mid": 4.75
-          },
-          {
-            "strike": 280,
-            "delta": 0.24,
-            "mid": 3.42
-          },
-          {
             "strike": 285,
-            "delta": 0.18,
-            "mid": 2.44
+            "delta": 0.3,
+            "mid": 6.93
           },
           {
             "strike": 290,
-            "delta": 0.14,
-            "mid": 1.69
+            "delta": 0.27,
+            "mid": 5.62
           },
           {
             "strike": 295,
-            "delta": 0.1,
-            "mid": 1.16
+            "delta": 0.22,
+            "mid": 4.3
+          },
+          {
+            "strike": 305,
+            "delta": 0.15,
+            "mid": 2.53
+          },
+          {
+            "strike": 315,
+            "delta": 0.09,
+            "mid": 1.43
+          },
+          {
+            "strike": 330,
+            "delta": 0.05,
+            "mid": 0.59
           }
         ]
       }
     },
     {
       "ticker": "MSFT",
-      "price": 511.76,
-      "ivr": 42.5,
-      "iv": 33.4,
-      "hv": 35.9,
-      "mcap": 3800.4,
+      "price": 506.1,
+      "ivr": 49.1,
+      "iv": 37.7,
+      "hv": 36.1,
+      "mcap": 3757.5,
       "trend": "Range",
       "earnings": "2027-01-27",
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 46.4,
-      "z20": -1.06,
-      "streak": -1,
+      "rsi": 41.9,
+      "z20": -1.9,
+      "streak": -2,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 33.4 <= HV30 35.9; Range: close 517.99 within 1.5% of SMA50 519.36 (SMA20 528.61)",
+      "reason": "No new entries: kill switch on (backwardation); Range: close 506.24, SMA20 527.33, SMA50 519.61 not aligned",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 550,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 560,
         "delta": 0.2,
-        "bid": 4.55,
-        "ask": 4.85,
-        "mid": 4.7,
+        "bid": 6.0,
+        "ask": 6.7,
+        "mid": 6.35,
         "ladder": [
           {
-            "strike": 535,
-            "delta": 0.31,
-            "mid": 8.7
-          },
-          {
-            "strike": 545,
-            "delta": 0.24,
-            "mid": 5.83
+            "strike": 540,
+            "delta": 0.3,
+            "mid": 11.57
           },
           {
             "strike": 550,
-            "delta": 0.2,
-            "mid": 4.7
+            "delta": 0.25,
+            "mid": 8.88
           },
           {
             "strike": 560,
-            "delta": 0.14,
-            "mid": 3.0
+            "delta": 0.2,
+            "mid": 6.35
           },
           {
             "strike": 570,
-            "delta": 0.1,
-            "mid": 1.84
+            "delta": 0.15,
+            "mid": 4.57
           },
           {
             "strike": 585,
+            "delta": 0.1,
+            "mid": 2.72
+          },
+          {
+            "strike": 610,
             "delta": 0.05,
-            "mid": 0.86
+            "mid": 1.23
           }
         ]
       }
     },
     {
       "ticker": "META",
-      "price": 625.21,
-      "ivr": 52.6,
-      "iv": 44.6,
-      "hv": 41.0,
-      "mcap": 1598.2,
+      "price": 620.22,
+      "ivr": 56.1,
+      "iv": 46.1,
+      "hv": 39.6,
+      "mcap": 1585.4,
       "trend": "Range",
       "earnings": "2027-01-27",
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 43.9,
-      "z20": -0.28,
-      "streak": -1,
+      "rsi": 42.0,
+      "z20": -0.53,
+      "streak": -2,
       "stretch": null,
       "status": "filtered",
-      "reason": "ATM spread 0.80 > 0.10; Warning: ex-dividend date not announced; estimated ~2026-12-21 from payment history (after expiration); Range: close 626.41 within 1.5% of SMA20 633.11 (SMA50 680.00)",
+      "reason": "No new entries: kill switch on (backwardation); Range: close 618.87, SMA20 629.34, SMA50 680.11 (latest close reads Down, 1 of 2 closes to confirm)",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 695,
-        "delta": 0.19,
-        "bid": 7.7,
-        "ask": 8.15,
-        "mid": 7.93,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 710,
+        "delta": 0.21,
+        "bid": 11.1,
+        "ask": 11.75,
+        "mid": 11.43,
         "ladder": [
           {
-            "strike": 670,
-            "delta": 0.29,
-            "mid": 13.8
-          },
-          {
             "strike": 680,
-            "delta": 0.25,
-            "mid": 11.15
+            "delta": 0.3,
+            "mid": 18.6
           },
           {
-            "strike": 695,
-            "delta": 0.19,
-            "mid": 7.93
+            "strike": 700,
+            "delta": 0.24,
+            "mid": 13.55
           },
           {
             "strike": 710,
-            "delta": 0.15,
-            "mid": 5.6
+            "delta": 0.21,
+            "mid": 11.43
           },
           {
-            "strike": 720,
-            "delta": 0.12,
-            "mid": 4.4
+            "strike": 740,
+            "delta": 0.14,
+            "mid": 6.78
+          },
+          {
+            "strike": 760,
+            "delta": 0.11,
+            "mid": 4.72
+          },
+          {
+            "strike": 770,
+            "delta": 0.09,
+            "mid": 3.9
           }
         ]
       }
     },
     {
       "ticker": "NVDA",
-      "price": 155.7,
-      "ivr": 93.3,
-      "iv": 68.3,
-      "hv": 51.1,
-      "mcap": 3759.5,
+      "price": 155.54,
+      "ivr": 66.1,
+      "iv": 70.5,
+      "hv": 51.2,
+      "mcap": 3755.8,
       "trend": "Down",
-      "earnings": "2026-11-17",
+      "earnings": null,
       "liquidity": "Thin",
       "support": 150.0,
       "resistance": 180.0,
-      "rsi": 22.7,
-      "z20": -1.88,
-      "streak": -3,
+      "rsi": 22.5,
+      "z20": -1.68,
+      "streak": -4,
       "stretch": {
         "dir": "down",
         "level": "mild",
-        "note": "RSI 23, 1.9 standard deviations under its 20-day average."
+        "note": "RSI 23, 1.7 standard deviations under its 20-day average."
       },
       "status": "filtered",
-      "reason": "earnings 2026-11-17 on/before expiration 2026-12-18; Down: close 156.14 below SMA20 195.64 and SMA50 213.16",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 155.46 below SMA20 192.59 and SMA50 211.76",
       "trade": null,
-      "call": null
+      "call": {
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 185,
+        "delta": 0.21,
+        "bid": 3.15,
+        "ask": 3.35,
+        "mid": 3.25,
+        "ladder": [
+          {
+            "strike": 175,
+            "delta": 0.3,
+            "mid": 5.3
+          },
+          {
+            "strike": 180,
+            "delta": 0.25,
+            "mid": 4.17
+          },
+          {
+            "strike": 185,
+            "delta": 0.21,
+            "mid": 3.25
+          },
+          {
+            "strike": 190,
+            "delta": 0.17,
+            "mid": 2.5
+          }
+        ]
+      }
     },
     {
       "ticker": "AMD",
-      "price": 506.57,
-      "ivr": 78.4,
-      "iv": 79.4,
-      "hv": 117.6,
-      "mcap": 837.4,
-      "trend": "Range",
+      "price": 516.62,
+      "ivr": 80.8,
+      "iv": 83.1,
+      "hv": 115.8,
+      "mcap": 855.0,
+      "trend": "Down",
       "earnings": "2027-02-02",
       "liquidity": "Thin",
       "support": 400.0,
       "resistance": 525.0,
-      "rsi": 46.7,
-      "z20": -0.3,
-      "streak": -2,
+      "rsi": 46.6,
+      "z20": -0.28,
+      "streak": -3,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 79.4 <= HV30 117.6; Range: close 504.28, SMA20 517.33, SMA50 555.09 (latest close reads Down, 1 of 2 closes to confirm)",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 503.41 below SMA20 515.77 and SMA50 555.04",
       "trade": null,
-      "call": null
+      "call": {
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 640,
+        "delta": 0.23,
+        "bid": 15.2,
+        "ask": 17.45,
+        "mid": 16.32,
+        "ladder": [
+          {
+            "strike": 610,
+            "delta": 0.3,
+            "mid": 22.95
+          },
+          {
+            "strike": 630,
+            "delta": 0.25,
+            "mid": 18.15
+          },
+          {
+            "strike": 640,
+            "delta": 0.23,
+            "mid": 16.32
+          }
+        ]
+      }
     },
     {
       "ticker": "JPM",
-      "price": 335.38,
-      "ivr": 33.2,
-      "iv": 26.6,
-      "hv": 27.6,
-      "mcap": 890.6,
+      "price": 329.56,
+      "ivr": 42.6,
+      "iv": 28.4,
+      "hv": 28.5,
+      "mcap": 875.2,
       "trend": "Range",
-      "earnings": "2027-01-14",
+      "earnings": "2027-01-12",
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 48.4,
-      "z20": -0.22,
-      "streak": -1,
+      "rsi": 42.0,
+      "z20": -1.77,
+      "streak": -2,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 26.6 <= HV30 27.6; Range: close 338.21 within 1.5% of SMA20 339.28 and SMA50 340.01",
+      "reason": "No new entries: kill switch on (backwardation); Range: close 329.96, SMA20 339.01, SMA50 339.54 (latest close reads Down, 1 of 2 closes to confirm)",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 355,
-        "delta": 0.21,
-        "bid": 2.56,
-        "ask": 2.67,
-        "mid": 2.62,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 360,
+        "delta": 0.19,
+        "bid": 2.99,
+        "ask": 3.35,
+        "mid": 3.17,
         "ladder": [
           {
             "strike": 350,
             "delta": 0.28,
-            "mid": 3.97
-          },
-          {
-            "strike": 355,
-            "delta": 0.21,
-            "mid": 2.62
+            "mid": 5.45
           },
           {
             "strike": 360,
-            "delta": 0.15,
-            "mid": 1.67
+            "delta": 0.19,
+            "mid": 3.17
           },
           {
-            "strike": 365,
-            "delta": 0.1,
-            "mid": 1.03
+            "strike": 370,
+            "delta": 0.11,
+            "mid": 1.66
           },
           {
-            "strike": 375,
-            "delta": 0.05,
-            "mid": 0.4
+            "strike": 390,
+            "delta": 0.04,
+            "mid": 0.53
           }
         ]
       }
     },
     {
       "ticker": "TQQQ",
-      "price": 53.22,
-      "ivr": 56.1,
-      "iv": 93.2,
-      "hv": 104.2,
+      "price": 53.16,
+      "ivr": 61.6,
+      "iv": 99.1,
+      "hv": 101.9,
       "mcap": null,
       "trend": "Down",
       "earnings": null,
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 35.7,
-      "z20": -1.41,
-      "streak": -3,
+      "rsi": 34.6,
+      "z20": -1.43,
+      "streak": -4,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 93.2 <= HV30 104.2; Down: close 53.03 below SMA20 62.45 and SMA50 70.57",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 51.81 below SMA20 61.52 and SMA50 70.16",
       "trade": null,
       "call": null
     },
     {
       "ticker": "GOOG",
-      "price": 280.66,
-      "ivr": 59.7,
-      "iv": 38.0,
-      "hv": 48.9,
-      "mcap": 3450.4,
+      "price": 281.26,
+      "ivr": 65.7,
+      "iv": 39.9,
+      "hv": 48.7,
+      "mcap": 3457.8,
       "trend": "Down",
       "earnings": null,
       "liquidity": "Thin",
       "support": null,
       "resistance": null,
-      "rsi": 33.5,
-      "z20": -0.87,
-      "streak": -2,
+      "rsi": 31.8,
+      "z20": -1.0,
+      "streak": -3,
       "stretch": null,
       "status": "filtered",
-      "reason": "IV30 38.0 <= HV30 48.9; Down: close 281.26 below SMA20 297.94 and SMA50 324.03",
+      "reason": "No new entries: kill switch on (backwardation); Down: close 277.60 below SMA20 295.00 and SMA50 322.87",
       "trade": null,
       "call": {
-        "expiration": "2026-12-18",
-        "dte": 31,
-        "strike": 305,
+        "expiration": "2027-01-15",
+        "dte": 58,
+        "strike": 315,
         "delta": 0.21,
-        "bid": 3.15,
-        "ask": 3.45,
-        "mid": 3.3,
+        "bid": 3.95,
+        "ask": 4.45,
+        "mid": 4.2,
         "ladder": [
           {
-            "strike": 295,
-            "delta": 0.33,
-            "mid": 5.78
-          },
-          {
-            "strike": 300,
-            "delta": 0.27,
-            "mid": 4.38
-          },
-          {
             "strike": 305,
-            "delta": 0.21,
-            "mid": 3.3
+            "delta": 0.29,
+            "mid": 6.47
+          },
+          {
+            "strike": 310,
+            "delta": 0.24,
+            "mid": 5.28
           },
           {
             "strike": 315,
-            "delta": 0.14,
-            "mid": 1.88
+            "delta": 0.21,
+            "mid": 4.2
           },
           {
-            "strike": 320,
-            "delta": 0.11,
-            "mid": 1.4
+            "strike": 325,
+            "delta": 0.15,
+            "mid": 2.74
+          },
+          {
+            "strike": 335,
+            "delta": 0.1,
+            "mid": 1.77
+          },
+          {
+            "strike": 350,
+            "delta": 0.06,
+            "mid": 0.96
           }
         ]
       }
