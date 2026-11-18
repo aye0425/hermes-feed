@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "rulesVersion": "b16e4ba3",
-  "open": 38,
-  "resolved": 1,
+  "open": 53,
+  "resolved": 6,
   "overall": {
     "n": 0,
     "winRate": 0.0,
@@ -25,10 +25,42 @@
     {
       "group": "Filtered (all)",
       "kind": "filtered",
-      "n": 1,
-      "winRate": 0.0,
-      "expectancy": -29.0,
-      "total": -29.0
+      "n": 6,
+      "winRate": 0.833,
+      "expectancy": 27.25,
+      "total": 163.5
+    },
+    {
+      "group": "Filtered: credit below minimum",
+      "kind": "filter",
+      "n": 5,
+      "winRate": 0.8,
+      "expectancy": 28.9,
+      "total": 144.5
+    },
+    {
+      "group": "Filtered: wide option spreads",
+      "kind": "filter",
+      "n": 5,
+      "winRate": 0.8,
+      "expectancy": 30.8,
+      "total": 154.0
+    },
+    {
+      "group": "Filtered: IV at or below realized",
+      "kind": "filter",
+      "n": 3,
+      "winRate": 0.667,
+      "expectancy": 20.67,
+      "total": 62.0
+    },
+    {
+      "group": "Filtered: earnings before expiration",
+      "kind": "filter",
+      "n": 2,
+      "winRate": 1.0,
+      "expectancy": 46.0,
+      "total": 92.0
     },
     {
       "group": "Filtered: IV Rank under 30",
@@ -39,28 +71,20 @@
       "total": -29.0
     },
     {
-      "group": "Filtered: IV at or below realized",
+      "group": "Filtered: kill switch (backwardation)",
       "kind": "filter",
       "n": 1,
-      "winRate": 0.0,
-      "expectancy": -29.0,
-      "total": -29.0
+      "winRate": 1.0,
+      "expectancy": 19.0,
+      "total": 19.0
     },
     {
-      "group": "Filtered: credit below minimum",
+      "group": "Filtered: low open interest",
       "kind": "filter",
       "n": 1,
-      "winRate": 0.0,
-      "expectancy": -29.0,
-      "total": -29.0
-    },
-    {
-      "group": "Filtered: wide option spreads",
-      "kind": "filter",
-      "n": 1,
-      "winRate": 0.0,
-      "expectancy": -29.0,
-      "total": -29.0
+      "winRate": 1.0,
+      "expectancy": 72.0,
+      "total": 72.0
     },
     {
       "group": "IV Rank under 30",
@@ -73,18 +97,18 @@
     {
       "group": "IV Rank 30-50",
       "kind": "ivr",
-      "n": 0,
-      "winRate": 0.0,
-      "expectancy": 0.0,
-      "total": 0.0
+      "n": 2,
+      "winRate": 1.0,
+      "expectancy": 40.75,
+      "total": 81.5
     },
     {
       "group": "IV Rank 50+",
       "kind": "ivr",
-      "n": 0,
-      "winRate": 0.0,
-      "expectancy": 0.0,
-      "total": 0.0
+      "n": 3,
+      "winRate": 1.0,
+      "expectancy": 37.0,
+      "total": 111.0
     },
     {
       "group": "Put credit spread",
@@ -97,10 +121,10 @@
     {
       "group": "Call credit spread",
       "kind": "structure",
-      "n": 0,
-      "winRate": 0.0,
-      "expectancy": 0.0,
-      "total": 0.0
+      "n": 5,
+      "winRate": 1.0,
+      "expectancy": 38.5,
+      "total": 192.5
     },
     {
       "group": "Iron condor",
@@ -113,26 +137,34 @@
     {
       "group": "VIX normal",
       "kind": "regime",
+      "n": 5,
+      "winRate": 0.8,
+      "expectancy": 28.9,
+      "total": 144.5
+    },
+    {
+      "group": "VIX elevated",
+      "kind": "regime",
       "n": 1,
-      "winRate": 0.0,
-      "expectancy": -29.0,
-      "total": -29.0
+      "winRate": 1.0,
+      "expectancy": 19.0,
+      "total": 19.0
     },
     {
       "group": "ETF",
       "kind": "type",
-      "n": 1,
-      "winRate": 0.0,
-      "expectancy": -29.0,
-      "total": -29.0
+      "n": 4,
+      "winRate": 0.75,
+      "expectancy": 17.88,
+      "total": 71.5
     },
     {
       "group": "Single stock",
       "kind": "type",
-      "n": 0,
-      "winRate": 0.0,
-      "expectancy": 0.0,
-      "total": 0.0
+      "n": 2,
+      "winRate": 1.0,
+      "expectancy": 46.0,
+      "total": 92.0
     },
     {
       "group": "Half-size names",
@@ -176,6 +208,66 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-11-18",
+      "ticker": "TQQQ",
+      "structure": "Call credit spread",
+      "strikes": "70/71",
+      "credit": 0.275,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-18",
+      "pl": 19.0,
+      "days": 0
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "SLV",
+      "structure": "Call credit spread",
+      "strikes": "47/48",
+      "credit": 0.19,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-18",
+      "pl": 9.5,
+      "days": 1
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "NVDA",
+      "structure": "Call credit spread",
+      "strikes": "181/183",
+      "credit": 0.35,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-18",
+      "pl": 20.5,
+      "days": 1
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "NVDA",
+      "structure": "Call credit spread",
+      "strikes": "184/189",
+      "credit": 0.975,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-18",
+      "pl": 71.5,
+      "days": 2
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "GLD",
+      "structure": "Call credit spread",
+      "strikes": "372/377",
+      "credit": 1.2,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-18",
+      "pl": 72.0,
+      "days": 2
+    },
     {
       "date": "2026-11-16",
       "ticker": "XLF",
