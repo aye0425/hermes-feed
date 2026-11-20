@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "rulesVersion": "b16e4ba3",
-  "open": 60,
-  "resolved": 14,
+  "open": 53,
+  "resolved": 39,
   "overall": {
     "n": 0,
     "winRate": 0.0,
@@ -25,50 +25,58 @@
     {
       "group": "Filtered (all)",
       "kind": "filtered",
-      "n": 13,
-      "winRate": 0.769,
-      "expectancy": 27.08,
-      "total": 352.0
+      "n": 35,
+      "winRate": 0.829,
+      "expectancy": 34.73,
+      "total": 1215.5
     },
     {
       "group": "Filtered: wide option spreads",
       "kind": "filter",
-      "n": 12,
-      "winRate": 0.75,
-      "expectancy": 28.54,
-      "total": 342.5
+      "n": 33,
+      "winRate": 0.818,
+      "expectancy": 36.24,
+      "total": 1196.0
     },
     {
       "group": "Filtered: credit below minimum",
       "kind": "filter",
-      "n": 11,
-      "winRate": 0.727,
-      "expectancy": 23.95,
-      "total": 263.5
+      "n": 29,
+      "winRate": 0.793,
+      "expectancy": 24.93,
+      "total": 723.0
     },
     {
       "group": "Filtered: IV at or below realized",
       "kind": "filter",
-      "n": 7,
-      "winRate": 0.714,
-      "expectancy": 30.36,
-      "total": 212.5
+      "n": 23,
+      "winRate": 0.783,
+      "expectancy": 34.54,
+      "total": 794.5
     },
     {
       "group": "Filtered: low open interest",
       "kind": "filter",
-      "n": 3,
-      "winRate": 0.667,
-      "expectancy": 42.0,
-      "total": 126.0
+      "n": 12,
+      "winRate": 0.75,
+      "expectancy": 37.08,
+      "total": 445.0
+    },
+    {
+      "group": "Filtered: kill switch (backwardation)",
+      "kind": "filter",
+      "n": 9,
+      "winRate": 1.0,
+      "expectancy": 44.44,
+      "total": 400.0
     },
     {
       "group": "Filtered: IV Rank under 30",
       "kind": "filter",
-      "n": 2,
+      "n": 3,
       "winRate": 0.0,
-      "expectancy": -36.0,
-      "total": -72.0
+      "expectancy": -75.5,
+      "total": -226.5
     },
     {
       "group": "Filtered: earnings before expiration",
@@ -81,42 +89,34 @@
     {
       "group": "Filtered: earnings date unknown",
       "kind": "filter",
-      "n": 1,
+      "n": 2,
       "winRate": 1.0,
-      "expectancy": 69.5,
-      "total": 69.5
-    },
-    {
-      "group": "Filtered: kill switch (backwardation)",
-      "kind": "filter",
-      "n": 1,
-      "winRate": 1.0,
-      "expectancy": 19.0,
-      "total": 19.0
+      "expectancy": 55.75,
+      "total": 111.5
     },
     {
       "group": "IV Rank under 30",
       "kind": "ivr",
-      "n": 2,
+      "n": 3,
       "winRate": 0.0,
-      "expectancy": -36.0,
-      "total": -72.0
+      "expectancy": -75.5,
+      "total": -226.5
     },
     {
       "group": "IV Rank 30-50",
       "kind": "ivr",
-      "n": 6,
-      "winRate": 1.0,
-      "expectancy": 43.25,
-      "total": 259.5
+      "n": 12,
+      "winRate": 0.833,
+      "expectancy": 13.42,
+      "total": 161.0
     },
     {
       "group": "IV Rank 50+",
       "kind": "ivr",
-      "n": 5,
-      "winRate": 0.8,
-      "expectancy": 32.9,
-      "total": 164.5
+      "n": 20,
+      "winRate": 0.95,
+      "expectancy": 64.05,
+      "total": 1281.0
     },
     {
       "group": "Put credit spread",
@@ -129,50 +129,50 @@
     {
       "group": "Call credit spread",
       "kind": "structure",
-      "n": 10,
+      "n": 29,
       "winRate": 1.0,
-      "expectancy": 44.0,
-      "total": 440.0
+      "expectancy": 59.24,
+      "total": 1718.0
     },
     {
       "group": "Iron condor",
       "kind": "structure",
-      "n": 1,
+      "n": 4,
       "winRate": 0.0,
-      "expectancy": -16.0,
-      "total": -16.0
+      "expectancy": -107.62,
+      "total": -430.5
     },
     {
       "group": "VIX normal",
       "kind": "regime",
-      "n": 12,
-      "winRate": 0.75,
-      "expectancy": 27.75,
-      "total": 333.0
+      "n": 26,
+      "winRate": 0.769,
+      "expectancy": 31.37,
+      "total": 815.5
     },
     {
       "group": "VIX elevated",
       "kind": "regime",
-      "n": 1,
+      "n": 9,
       "winRate": 1.0,
-      "expectancy": 19.0,
-      "total": 19.0
+      "expectancy": 44.44,
+      "total": 400.0
     },
     {
       "group": "ETF",
       "kind": "type",
-      "n": 9,
-      "winRate": 0.667,
-      "expectancy": 13.39,
-      "total": 120.5
+      "n": 29,
+      "winRate": 0.828,
+      "expectancy": 37.81,
+      "total": 1096.5
     },
     {
       "group": "Single stock",
       "kind": "type",
-      "n": 4,
-      "winRate": 1.0,
-      "expectancy": 57.88,
-      "total": 231.5
+      "n": 6,
+      "winRate": 0.833,
+      "expectancy": 19.83,
+      "total": 119.0
     },
     {
       "group": "Half-size names",
@@ -185,10 +185,10 @@
     {
       "group": "Reversal watch: stretched down",
       "kind": "reversal",
-      "n": 1,
+      "n": 4,
       "winRate": 0.0,
-      "expectancy": -23.5,
-      "total": -23.5
+      "expectancy": -69.5,
+      "total": -278.0
     },
     {
       "group": "Reversal watch: stretched up",
@@ -217,160 +217,244 @@
   ],
   "recent": [
     {
-      "date": "2026-11-19",
-      "ticker": "XLE",
-      "structure": "Iron condor",
-      "strikes": "55/54 puts, 69/70 calls",
-      "credit": 0.1,
+      "date": "2026-11-20",
+      "ticker": "SMH",
+      "structure": "Call credit spread",
+      "strikes": "520/525",
+      "credit": 0.8,
       "shadow": true,
-      "exit": "Stop",
-      "exitDate": "2026-11-19",
-      "pl": -16.0,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 40.0,
       "days": 0
     },
     {
       "date": "2026-11-19",
-      "ticker": "GOOG",
+      "ticker": "XSP",
       "structure": "Call credit spread",
-      "strikes": "315/320",
+      "strikes": "770/775",
+      "credit": 1.59,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 95.5,
+      "days": 1
+    },
+    {
+      "date": "2026-11-19",
+      "ticker": "XLK",
+      "structure": "Call credit spread",
+      "strikes": "182.5/187.5",
+      "credit": 1.19,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 98.0,
+      "days": 1
+    },
+    {
+      "date": "2026-11-19",
+      "ticker": "SMH",
+      "structure": "Call credit spread",
+      "strikes": "535/540",
       "credit": 1.25,
       "shadow": true,
       "exit": "50% profit",
-      "exitDate": "2026-11-19",
-      "pl": 69.5,
-      "days": 0
+      "exitDate": "2026-11-20",
+      "pl": 96.0,
+      "days": 1
     },
     {
-      "date": "2026-11-17",
-      "ticker": "XLF",
-      "structure": "Put credit spread",
-      "strikes": "56/54",
-      "credit": 0.27,
-      "shadow": true,
-      "exit": "Stop",
-      "exitDate": "2026-11-19",
-      "pl": -43.0,
-      "days": 2
-    },
-    {
-      "date": "2026-11-17",
-      "ticker": "GLD",
-      "structure": "Call credit spread",
-      "strikes": "370/375",
-      "credit": 1.105,
-      "shadow": true,
-      "exit": "50% profit",
-      "exitDate": "2026-11-19",
-      "pl": 75.0,
-      "days": 2
-    },
-    {
-      "date": "2026-11-16",
-      "ticker": "TQQQ",
-      "structure": "Call credit spread",
-      "strikes": "64/66",
-      "credit": 0.41,
-      "shadow": true,
-      "exit": "50% profit",
-      "exitDate": "2026-11-19",
-      "pl": 22.0,
-      "days": 3
-    },
-    {
-      "date": "2026-11-16",
+      "date": "2026-11-19",
       "ticker": "SLV",
       "structure": "Call credit spread",
-      "strikes": "47/48",
-      "credit": 0.185,
+      "strikes": "46/47",
+      "credit": 0.195,
       "shadow": true,
       "exit": "50% profit",
-      "exitDate": "2026-11-19",
-      "pl": 11.0,
-      "days": 3
+      "exitDate": "2026-11-20",
+      "pl": 10.0,
+      "days": 1
     },
     {
-      "date": "2026-11-16",
-      "ticker": "META",
+      "date": "2026-11-19",
+      "ticker": "QQQ",
       "structure": "Call credit spread",
-      "strikes": "685/690",
-      "credit": 1.175,
+      "strikes": "715/720",
+      "credit": 1.42,
       "shadow": true,
       "exit": "50% profit",
-      "exitDate": "2026-11-19",
-      "pl": 70.0,
-      "days": 3
+      "exitDate": "2026-11-20",
+      "pl": 102.5,
+      "days": 1
     },
     {
       "date": "2026-11-18",
-      "ticker": "TQQQ",
+      "ticker": "XSP",
       "structure": "Call credit spread",
-      "strikes": "70/71",
-      "credit": 0.275,
+      "strikes": "780/785",
+      "credit": 1.03,
       "shadow": true,
       "exit": "50% profit",
-      "exitDate": "2026-11-18",
-      "pl": 19.0,
-      "days": 0
+      "exitDate": "2026-11-20",
+      "pl": 66.5,
+      "days": 2
     },
     {
-      "date": "2026-11-17",
+      "date": "2026-11-18",
+      "ticker": "XLK",
+      "structure": "Call credit spread",
+      "strikes": "185/190",
+      "credit": 0.8,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 64.5,
+      "days": 2
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "SMH",
+      "structure": "Call credit spread",
+      "strikes": "550/555",
+      "credit": 0.775,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 58.0,
+      "days": 2
+    },
+    {
+      "date": "2026-11-18",
       "ticker": "SLV",
       "structure": "Call credit spread",
-      "strikes": "47/48",
-      "credit": 0.19,
+      "strikes": "49/50",
+      "credit": 0.105,
       "shadow": true,
       "exit": "50% profit",
-      "exitDate": "2026-11-18",
-      "pl": 9.5,
-      "days": 1
+      "exitDate": "2026-11-20",
+      "pl": 6.5,
+      "days": 2
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "QQQ",
+      "structure": "Call credit spread",
+      "strikes": "725/730",
+      "credit": 0.89,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 61.0,
+      "days": 2
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "NVDA",
+      "structure": "Call credit spread",
+      "strikes": "190/195",
+      "credit": 0.54,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 42.0,
+      "days": 2
+    },
+    {
+      "date": "2026-11-18",
+      "ticker": "GLD",
+      "structure": "Call credit spread",
+      "strikes": "380/385",
+      "credit": 0.68,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 42.5,
+      "days": 2
     },
     {
       "date": "2026-11-17",
-      "ticker": "NVDA",
+      "ticker": "XLK",
       "structure": "Call credit spread",
-      "strikes": "181/183",
-      "credit": 0.35,
+      "strikes": "175/180",
+      "credit": 1.125,
       "shadow": true,
       "exit": "50% profit",
-      "exitDate": "2026-11-18",
-      "pl": 20.5,
-      "days": 1
+      "exitDate": "2026-11-20",
+      "pl": 86.5,
+      "days": 3
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "TQQQ",
+      "structure": "Call credit spread",
+      "strikes": "61/63",
+      "credit": 0.41,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 43.0,
+      "days": 3
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "SMH",
+      "structure": "Call credit spread",
+      "strikes": "510/515",
+      "credit": 1.125,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 82.0,
+      "days": 3
+    },
+    {
+      "date": "2026-11-17",
+      "ticker": "QQQ",
+      "structure": "Call credit spread",
+      "strikes": "694/699",
+      "credit": 1.48,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 110.0,
+      "days": 3
     },
     {
       "date": "2026-11-16",
-      "ticker": "NVDA",
-      "structure": "Call credit spread",
-      "strikes": "184/189",
-      "credit": 0.975,
-      "shadow": true,
-      "exit": "50% profit",
-      "exitDate": "2026-11-18",
-      "pl": 71.5,
-      "days": 2
-    },
-    {
-      "date": "2026-11-16",
-      "ticker": "GLD",
-      "structure": "Call credit spread",
-      "strikes": "372/377",
-      "credit": 1.2,
-      "shadow": true,
-      "exit": "50% profit",
-      "exitDate": "2026-11-18",
-      "pl": 72.0,
-      "days": 2
-    },
-    {
-      "date": "2026-11-16",
-      "ticker": "XLF",
-      "structure": "Put credit spread",
-      "strikes": "57/55",
-      "credit": 0.28,
+      "ticker": "XSP",
+      "structure": "Iron condor",
+      "strikes": "706/701 puts, 783/788 calls",
+      "credit": 1.23,
       "shadow": true,
       "exit": "Stop",
-      "exitDate": "2026-11-17",
-      "pl": -29.0,
-      "days": 1
+      "exitDate": "2026-11-20",
+      "pl": -123.5,
+      "days": 4
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "XLK",
+      "structure": "Call credit spread",
+      "strikes": "177.5/182.5",
+      "credit": 1.1,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 83.0,
+      "days": 4
+    },
+    {
+      "date": "2026-11-16",
+      "ticker": "SMH",
+      "structure": "Call credit spread",
+      "strikes": "520/525",
+      "credit": 1.125,
+      "shadow": true,
+      "exit": "50% profit",
+      "exitDate": "2026-11-20",
+      "pl": 90.5,
+      "days": 4
     }
   ],
   "proposal": null
