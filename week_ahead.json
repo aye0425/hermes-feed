@@ -1,0 +1,1792 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-11-24T19:50:57-05:00",
+  "dataAsOf": "2026-11-24",
+  "week": {
+    "from": "2026-11-25",
+    "to": "2026-11-27",
+    "tradingDays": 2
+  },
+  "source": "daily adjusted closes from Yahoo Finance",
+  "skipped": [],
+  "items": [
+    {
+      "ticker": "SPY",
+      "years": 33,
+      "now": {
+        "close": 718.8,
+        "r1": -0.5,
+        "r5": -1.9,
+        "r20": -6.6,
+        "vs50": -5.2,
+        "vs200": -1.6,
+        "rsi": 40.5,
+        "vix": 26.4,
+        "offHigh": -7.7
+      },
+      "range": {
+        "impliedPct": 2.3,
+        "typicalPct": 0.7,
+        "p90Pct": 2.2,
+        "withinNow": {
+          "n": 4256,
+          "pct": 88.4
+        },
+        "withinImplied": {
+          "n": 4256,
+          "pct": 80.5,
+          "basis": "VIX"
+        }
+      },
+      "all": {
+        "n": 4256,
+        "upPct": 56.3,
+        "median": 0.2,
+        "p10": -1.7,
+        "p90": 1.7
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 33,
+        "upPct": 75.8,
+        "median": 0.2,
+        "p10": -0.4,
+        "p90": 1.2
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average, VIX 20 to 30",
+        "n": 386,
+        "upPct": 54.4,
+        "median": 0.2,
+        "p10": -2.2,
+        "p90": 2.8,
+        "withinNowPct": 74.9,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-19",
+            "next": 0.9
+          },
+          {
+            "date": "2026-11-17",
+            "next": -2.3
+          },
+          {
+            "date": "2026-11-06",
+            "next": 2.0
+          },
+          {
+            "date": "2026-11-03",
+            "next": -2.8
+          },
+          {
+            "date": "2026-07-29",
+            "next": 2.4
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "QQQ",
+      "years": 27,
+      "now": {
+        "close": 638.1,
+        "r1": -2.0,
+        "r5": -2.9,
+        "r20": -11.5,
+        "vs50": -9.9,
+        "vs200": -6.5,
+        "rsi": 39.5,
+        "vix": 26.4,
+        "offHigh": -16.0
+      },
+      "range": {
+        "impliedPct": 3.1,
+        "typicalPct": 1.2,
+        "p90Pct": 3.3,
+        "withinNow": {
+          "n": 3485,
+          "pct": 87.6
+        },
+        "withinImplied": {
+          "n": 3249,
+          "pct": 78.7,
+          "basis": "VXN"
+        }
+      },
+      "all": {
+        "n": 3485,
+        "upPct": 55.8,
+        "median": 0.2,
+        "p10": -2.5,
+        "p90": 2.5
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 27,
+        "upPct": 81.5,
+        "median": 0.5,
+        "p10": -0.5,
+        "p90": 2.0
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average, VIX 20 to 30",
+        "n": 265,
+        "upPct": 52.1,
+        "median": 0.2,
+        "p10": -3.9,
+        "p90": 3.8,
+        "withinNowPct": 70.9,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-19",
+            "next": 0.9
+          },
+          {
+            "date": "2026-11-17",
+            "next": -1.8
+          },
+          {
+            "date": "2026-11-06",
+            "next": 2.8
+          },
+          {
+            "date": "2026-11-03",
+            "next": -5.6
+          },
+          {
+            "date": "2026-07-29",
+            "next": 4.0
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "XSP",
+      "years": 33,
+      "now": {
+        "close": 718.8,
+        "r1": -0.5,
+        "r5": -1.9,
+        "r20": -6.6,
+        "vs50": -5.2,
+        "vs200": -1.6,
+        "rsi": 40.5,
+        "vix": 26.4,
+        "offHigh": -7.7
+      },
+      "range": {
+        "impliedPct": 2.3,
+        "typicalPct": 0.7,
+        "p90Pct": 2.2,
+        "withinNow": {
+          "n": 4256,
+          "pct": 88.4
+        },
+        "withinImplied": {
+          "n": 4256,
+          "pct": 80.5,
+          "basis": "VIX"
+        }
+      },
+      "all": {
+        "n": 4256,
+        "upPct": 56.3,
+        "median": 0.2,
+        "p10": -1.7,
+        "p90": 1.7
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 33,
+        "upPct": 75.8,
+        "median": 0.2,
+        "p10": -0.4,
+        "p90": 1.2
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average, VIX 20 to 30",
+        "n": 386,
+        "upPct": 54.4,
+        "median": 0.2,
+        "p10": -2.2,
+        "p90": 2.8,
+        "withinNowPct": 74.9,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-19",
+            "next": 0.9
+          },
+          {
+            "date": "2026-11-17",
+            "next": -2.3
+          },
+          {
+            "date": "2026-11-06",
+            "next": 2.0
+          },
+          {
+            "date": "2026-11-03",
+            "next": -2.8
+          },
+          {
+            "date": "2026-07-29",
+            "next": 2.4
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "IWM",
+      "years": 26,
+      "now": {
+        "close": 267.1,
+        "r1": 0.5,
+        "r5": -0.7,
+        "r20": -4.7,
+        "vs50": -3.7,
+        "vs200": -4.1,
+        "rsi": 43.1,
+        "vix": 26.4,
+        "offHigh": -12.2
+      },
+      "range": {
+        "impliedPct": 2.5,
+        "typicalPct": 1.1,
+        "p90Pct": 2.7,
+        "withinNow": {
+          "n": 3331,
+          "pct": 82.5
+        },
+        "withinImplied": {
+          "n": 3331,
+          "pct": 65.6,
+          "basis": "VIX"
+        }
+      },
+      "all": {
+        "n": 3331,
+        "upPct": 54.0,
+        "median": 0.1,
+        "p10": -2.3,
+        "p90": 2.4
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 26,
+        "upPct": 73.1,
+        "median": 0.6,
+        "p10": -2.1,
+        "p90": 1.5
+      },
+      "setup": {
+        "desc": "5-day return in its second fifth, close below the 50-day average, VIX 20 to 30",
+        "n": 148,
+        "upPct": 56.1,
+        "median": 0.4,
+        "p10": -2.6,
+        "p90": 2.9,
+        "withinNowPct": 70.3,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-07-29",
+            "next": 0.9
+          },
+          {
+            "date": "2026-04-01",
+            "next": 1.1
+          },
+          {
+            "date": "2026-03-24",
+            "next": -0.5
+          },
+          {
+            "date": "2026-03-20",
+            "next": 2.7
+          },
+          {
+            "date": "2026-03-17",
+            "next": -1.0
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "DIA",
+      "years": 28,
+      "now": {
+        "close": 499.7,
+        "r1": 0.8,
+        "r5": -1.4,
+        "r20": -4.4,
+        "vs50": -2.9,
+        "vs200": -1.0,
+        "rsi": 42.6,
+        "vix": 26.4,
+        "offHigh": -7.5
+      },
+      "range": {
+        "impliedPct": 1.9,
+        "typicalPct": 0.7,
+        "p90Pct": 1.9,
+        "withinNow": {
+          "n": 3628,
+          "pct": 84.0
+        },
+        "withinImplied": {
+          "n": 3628,
+          "pct": 83.4,
+          "basis": "VIX"
+        }
+      },
+      "all": {
+        "n": 3628,
+        "upPct": 55.5,
+        "median": 0.1,
+        "p10": -1.7,
+        "p90": 1.7
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 28,
+        "upPct": 53.6,
+        "median": 0.1,
+        "p10": -0.8,
+        "p90": 1.4
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average, VIX 20 to 30",
+        "n": 284,
+        "upPct": 53.9,
+        "median": 0.2,
+        "p10": -2.3,
+        "p90": 2.4,
+        "withinNowPct": 68.7,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-19",
+            "next": 1.1
+          },
+          {
+            "date": "2026-11-17",
+            "next": -3.3
+          },
+          {
+            "date": "2026-11-05",
+            "next": 1.8
+          },
+          {
+            "date": "2026-03-24",
+            "next": -0.4
+          },
+          {
+            "date": "2026-03-20",
+            "next": 1.2
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "TLT",
+      "years": 24,
+      "now": {
+        "close": 81.5,
+        "r1": -0.2,
+        "r5": 2.4,
+        "r20": 0.2,
+        "vs50": 2.1,
+        "vs200": -1.3,
+        "rsi": 58.5,
+        "vix": null,
+        "offHigh": -7.1
+      },
+      "range": {
+        "impliedPct": 1.1,
+        "typicalPct": 0.6,
+        "p90Pct": 1.4,
+        "withinNow": {
+          "n": 3060,
+          "pct": 68.3
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 3060,
+        "upPct": 52.4,
+        "median": 0.1,
+        "p10": -1.5,
+        "p90": 1.5
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 24,
+        "upPct": 50.0,
+        "median": 0.0,
+        "p10": -0.8,
+        "p90": 1.4
+      },
+      "setup": {
+        "desc": "5-day return in its highest fifth, close above the 50-day average",
+        "n": 576,
+        "upPct": 46.0,
+        "median": -0.1,
+        "p10": -1.7,
+        "p90": 1.4,
+        "withinNowPct": 67.4,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-20",
+            "next": 0.0
+          },
+          {
+            "date": "2026-10-27",
+            "next": -0.2
+          },
+          {
+            "date": "2026-10-23",
+            "next": 0.4
+          },
+          {
+            "date": "2026-06-29",
+            "next": -1.8
+          },
+          {
+            "date": "2026-06-17",
+            "next": -0.3
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "GLD",
+      "years": 22,
+      "now": {
+        "close": 325.5,
+        "r1": -2.3,
+        "r5": -7.7,
+        "r20": -12.6,
+        "vs50": -12.6,
+        "vs200": -19.5,
+        "rsi": 30.0,
+        "vix": null,
+        "offHigh": -34.4
+      },
+      "range": {
+        "impliedPct": 3.0,
+        "typicalPct": 1.4,
+        "p90Pct": 3.8,
+        "withinNow": {
+          "n": 2769,
+          "pct": 93.7
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 2769,
+        "upPct": 53.7,
+        "median": 0.1,
+        "p10": -1.7,
+        "p90": 1.9
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 22,
+        "upPct": 63.6,
+        "median": 0.1,
+        "p10": -1.6,
+        "p90": 1.9
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average",
+        "n": 412,
+        "upPct": 57.8,
+        "median": 0.2,
+        "p10": -1.7,
+        "p90": 2.2,
+        "withinNowPct": 92.7,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-20",
+            "next": 0.8
+          },
+          {
+            "date": "2026-11-18",
+            "next": -5.4
+          },
+          {
+            "date": "2026-11-16",
+            "next": -3.3
+          },
+          {
+            "date": "2026-11-12",
+            "next": -0.6
+          },
+          {
+            "date": "2026-11-03",
+            "next": 4.5
+          }
+        ]
+      },
+      "shock": {
+        "desc": "prior week down 5% or more",
+        "n": 88,
+        "upPct": 68.2,
+        "median": 1.0,
+        "p10": -2.4,
+        "p90": 3.5
+      },
+      "events": []
+    },
+    {
+      "ticker": "SLV",
+      "years": 20,
+      "now": {
+        "close": 36.8,
+        "r1": -5.3,
+        "r5": -13.6,
+        "r20": -25.1,
+        "vs50": -26.7,
+        "vs200": -39.3,
+        "rsi": 25.9,
+        "vix": null,
+        "offHigh": -65.1
+      },
+      "range": {
+        "impliedPct": 5.2,
+        "typicalPct": 3.0,
+        "p90Pct": 8.6,
+        "withinNow": {
+          "n": 2588,
+          "pct": 92.3
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 2588,
+        "upPct": 51.5,
+        "median": 0.1,
+        "p10": -3.0,
+        "p90": 3.3
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 20,
+        "upPct": 50.0,
+        "median": -0.1,
+        "p10": -3.0,
+        "p90": 2.7
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average",
+        "n": 433,
+        "upPct": 52.0,
+        "median": 0.1,
+        "p10": -3.5,
+        "p90": 4.0,
+        "withinNowPct": 88.5,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-20",
+            "next": -0.4
+          },
+          {
+            "date": "2026-11-18",
+            "next": -9.2
+          },
+          {
+            "date": "2026-11-16",
+            "next": -4.0
+          },
+          {
+            "date": "2026-11-12",
+            "next": -6.1
+          },
+          {
+            "date": "2026-11-04",
+            "next": -0.6
+          }
+        ]
+      },
+      "shock": {
+        "desc": "prior week down 5% or more",
+        "n": 322,
+        "upPct": 54.0,
+        "median": 0.2,
+        "p10": -4.0,
+        "p90": 4.5
+      },
+      "events": []
+    },
+    {
+      "ticker": "USO",
+      "years": 20,
+      "now": {
+        "close": 135.4,
+        "r1": 1.6,
+        "r5": -3.4,
+        "r20": -17.4,
+        "vs50": -10.1,
+        "vs200": 4.4,
+        "rsi": 37.1,
+        "vix": null,
+        "offHigh": -20.1
+      },
+      "range": {
+        "impliedPct": 4.4,
+        "typicalPct": 2.8,
+        "p90Pct": 7.9,
+        "withinNow": {
+          "n": 2594,
+          "pct": 86.5
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 2594,
+        "upPct": 51.2,
+        "median": 0.1,
+        "p10": -3.6,
+        "p90": 3.5
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 20,
+        "upPct": 30.0,
+        "median": -0.7,
+        "p10": -5.1,
+        "p90": 2.7
+      },
+      "setup": {
+        "desc": "5-day return in its second fifth, close below the 50-day average",
+        "n": 410,
+        "upPct": 54.6,
+        "median": 0.3,
+        "p10": -3.9,
+        "p90": 3.9,
+        "withinNowPct": 84.9,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-17",
+            "next": -1.5
+          },
+          {
+            "date": "2026-11-13",
+            "next": -3.7
+          },
+          {
+            "date": "2026-11-11",
+            "next": 2.9
+          },
+          {
+            "date": "2026-08-03",
+            "next": -5.9
+          },
+          {
+            "date": "2026-07-06",
+            "next": 7.5
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "XLE",
+      "years": 27,
+      "now": {
+        "close": 60.5,
+        "r1": 1.0,
+        "r5": -4.6,
+        "r20": -11.4,
+        "vs50": -6.2,
+        "vs200": 1.9,
+        "rsi": 36.1,
+        "vix": null,
+        "offHigh": -13.7
+      },
+      "range": {
+        "impliedPct": 2.6,
+        "typicalPct": 1.4,
+        "p90Pct": 3.4,
+        "withinNow": {
+          "n": 3511,
+          "pct": 78.3
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 3511,
+        "upPct": 53.2,
+        "median": 0.2,
+        "p10": -2.7,
+        "p90": 2.7
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 27,
+        "upPct": 40.7,
+        "median": -0.2,
+        "p10": -3.2,
+        "p90": 2.0
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average",
+        "n": 605,
+        "upPct": 56.4,
+        "median": 0.4,
+        "p10": -3.3,
+        "p90": 4.0,
+        "withinNowPct": 66.1,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-20",
+            "next": -0.1
+          },
+          {
+            "date": "2026-11-18",
+            "next": -1.3
+          },
+          {
+            "date": "2026-11-10",
+            "next": 3.4
+          },
+          {
+            "date": "2026-11-06",
+            "next": 1.0
+          },
+          {
+            "date": "2026-11-04",
+            "next": -3.0
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "XLF",
+      "years": 27,
+      "now": {
+        "close": 56.1,
+        "r1": 0.8,
+        "r5": -1.7,
+        "r20": 0.4,
+        "vs50": 0.5,
+        "vs200": 4.3,
+        "rsi": 47.2,
+        "vix": null,
+        "offHigh": -5.2
+      },
+      "range": {
+        "impliedPct": 2.0,
+        "typicalPct": 0.8,
+        "p90Pct": 2.3,
+        "withinNow": {
+          "n": 3511,
+          "pct": 75.0
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 3511,
+        "upPct": 52.8,
+        "median": 0.1,
+        "p10": -2.3,
+        "p90": 2.3
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 27,
+        "upPct": 63.0,
+        "median": 0.3,
+        "p10": -2.1,
+        "p90": 1.3
+      },
+      "setup": {
+        "desc": "5-day return in its second fifth, close above the 50-day average",
+        "n": 506,
+        "upPct": 56.1,
+        "median": 0.2,
+        "p10": -1.9,
+        "p90": 2.0,
+        "withinNowPct": 80.0,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-11",
+            "next": 0.1
+          },
+          {
+            "date": "2026-09-08",
+            "next": -0.8
+          },
+          {
+            "date": "2026-09-02",
+            "next": 0.8
+          },
+          {
+            "date": "2026-08-31",
+            "next": -0.1
+          },
+          {
+            "date": "2026-08-21",
+            "next": 1.4
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "XLK",
+      "years": 27,
+      "now": {
+        "close": 157.1,
+        "r1": -3.3,
+        "r5": -3.8,
+        "r20": -17.1,
+        "vs50": -14.4,
+        "vs200": -8.3,
+        "rsi": 37.8,
+        "vix": null,
+        "offHigh": -22.2
+      },
+      "range": {
+        "impliedPct": 4.0,
+        "typicalPct": 1.6,
+        "p90Pct": 4.4,
+        "withinNow": {
+          "n": 3511,
+          "pct": 92.4
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 3511,
+        "upPct": 55.0,
+        "median": 0.2,
+        "p10": -2.5,
+        "p90": 2.5
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 27,
+        "upPct": 74.1,
+        "median": 0.5,
+        "p10": -1.1,
+        "p90": 2.2
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average",
+        "n": 508,
+        "upPct": 54.1,
+        "median": 0.3,
+        "p10": -3.6,
+        "p90": 4.1,
+        "withinNowPct": 81.7,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-20",
+            "next": 5.4
+          },
+          {
+            "date": "2026-11-18",
+            "next": -9.0
+          },
+          {
+            "date": "2026-11-16",
+            "next": -0.6
+          },
+          {
+            "date": "2026-11-10",
+            "next": 2.9
+          },
+          {
+            "date": "2026-11-06",
+            "next": 2.5
+          }
+        ]
+      },
+      "shock": {
+        "desc": "last session down 3% or more",
+        "n": 232,
+        "upPct": 60.8,
+        "median": 1.1,
+        "p10": -4.0,
+        "p90": 5.5
+      },
+      "events": []
+    },
+    {
+      "ticker": "XBI",
+      "years": 20,
+      "now": {
+        "close": 156.8,
+        "r1": 6.6,
+        "r5": 7.9,
+        "r20": 1.3,
+        "vs50": 2.8,
+        "vs200": 9.2,
+        "rsi": 56.6,
+        "vix": null,
+        "offHigh": -7.5
+      },
+      "range": {
+        "impliedPct": 3.3,
+        "typicalPct": 1.7,
+        "p90Pct": 4.2,
+        "withinNow": {
+          "n": 2616,
+          "pct": 82.0
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 2616,
+        "upPct": 52.5,
+        "median": 0.1,
+        "p10": -3.0,
+        "p90": 3.2
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 20,
+        "upPct": 80.0,
+        "median": 1.4,
+        "p10": -0.5,
+        "p90": 2.8
+      },
+      "setup": {
+        "desc": "5-day return in its highest fifth, close above the 50-day average",
+        "n": 542,
+        "upPct": 52.8,
+        "median": 0.1,
+        "p10": -2.6,
+        "p90": 2.5,
+        "withinNowPct": 88.4,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-10-29",
+            "next": -3.6
+          },
+          {
+            "date": "2026-09-22",
+            "next": -3.6
+          },
+          {
+            "date": "2026-08-25",
+            "next": -0.5
+          },
+          {
+            "date": "2026-08-21",
+            "next": 2.0
+          },
+          {
+            "date": "2026-08-19",
+            "next": -2.3
+          }
+        ]
+      },
+      "shock": {
+        "desc": "prior week up 5% or more",
+        "n": 373,
+        "upPct": 52.0,
+        "median": 0.1,
+        "p10": -3.0,
+        "p90": 2.9
+      },
+      "events": []
+    },
+    {
+      "ticker": "SMH",
+      "years": 26,
+      "now": {
+        "close": 426.8,
+        "r1": -7.3,
+        "r5": -7.2,
+        "r20": -23.5,
+        "vs50": -21.5,
+        "vs200": -18.8,
+        "rsi": 37.5,
+        "vix": null,
+        "offHigh": -36.2
+      },
+      "range": {
+        "impliedPct": 6.0,
+        "typicalPct": 2.6,
+        "p90Pct": 6.3,
+        "withinNow": {
+          "n": 3329,
+          "pct": 94.6
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 3329,
+        "upPct": 53.7,
+        "median": 0.2,
+        "p10": -3.3,
+        "p90": 3.5
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 26,
+        "upPct": 69.2,
+        "median": 0.6,
+        "p10": -0.6,
+        "p90": 3.7
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average",
+        "n": 420,
+        "upPct": 57.1,
+        "median": 0.7,
+        "p10": -3.7,
+        "p90": 4.7,
+        "withinNowPct": 92.4,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-20",
+            "next": 6.7
+          },
+          {
+            "date": "2026-11-18",
+            "next": -12.9
+          },
+          {
+            "date": "2026-11-16",
+            "next": -0.5
+          },
+          {
+            "date": "2026-11-10",
+            "next": 3.7
+          },
+          {
+            "date": "2026-11-06",
+            "next": 4.2
+          }
+        ]
+      },
+      "shock": {
+        "desc": "prior week down 5% or more",
+        "n": 452,
+        "upPct": 54.2,
+        "median": 0.5,
+        "p10": -4.3,
+        "p90": 5.4
+      },
+      "events": []
+    },
+    {
+      "ticker": "AAPL",
+      "years": 45,
+      "now": {
+        "close": 354.1,
+        "r1": 1.4,
+        "r5": 0.6,
+        "r20": 2.1,
+        "vs50": 3.4,
+        "vs200": 16.6,
+        "rsi": 56.9,
+        "vix": null,
+        "offHigh": -0.6
+      },
+      "range": {
+        "impliedPct": 2.4,
+        "typicalPct": 1.2,
+        "p90Pct": 3.6,
+        "withinNow": {
+          "n": 5790,
+          "pct": 58.0
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 5790,
+        "upPct": 51.6,
+        "median": 0.2,
+        "p10": -4.0,
+        "p90": 4.5
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 45,
+        "upPct": 62.2,
+        "median": 1.0,
+        "p10": -2.6,
+        "p90": 4.2
+      },
+      "setup": {
+        "desc": "5-day return in its middle fifth, close above the 50-day average",
+        "n": 1244,
+        "upPct": 51.2,
+        "median": 0.1,
+        "p10": -3.7,
+        "p90": 4.2,
+        "withinNowPct": 63.3,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-17",
+            "next": -0.8
+          },
+          {
+            "date": "2026-11-06",
+            "next": 1.8
+          },
+          {
+            "date": "2026-10-29",
+            "next": -3.0
+          },
+          {
+            "date": "2026-10-26",
+            "next": 0.0
+          },
+          {
+            "date": "2026-10-21",
+            "next": 1.1
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "AMZN",
+      "years": 29,
+      "now": {
+        "close": 252.3,
+        "r1": -1.2,
+        "r5": -2.2,
+        "r20": -0.3,
+        "vs50": -1.1,
+        "vs200": 2.7,
+        "rsi": 46.5,
+        "vix": null,
+        "offHigh": -11.2
+      },
+      "range": {
+        "impliedPct": 3.7,
+        "typicalPct": 1.9,
+        "p90Pct": 4.3,
+        "withinNow": {
+          "n": 3714,
+          "pct": 73.8
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 3714,
+        "upPct": 52.6,
+        "median": 0.2,
+        "p10": -4.2,
+        "p90": 4.8
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 29,
+        "upPct": 72.4,
+        "median": 1.1,
+        "p10": -1.7,
+        "p90": 5.4
+      },
+      "setup": {
+        "desc": "5-day return in its second fifth, close below the 50-day average",
+        "n": 587,
+        "upPct": 52.1,
+        "median": 0.2,
+        "p10": -4.8,
+        "p90": 4.8,
+        "withinNowPct": 71.6,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-03",
+            "next": 3.8
+          },
+          {
+            "date": "2026-10-30",
+            "next": 4.3
+          },
+          {
+            "date": "2026-10-28",
+            "next": -5.6
+          },
+          {
+            "date": "2026-10-23",
+            "next": 2.1
+          },
+          {
+            "date": "2026-10-14",
+            "next": -1.6
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "MSFT",
+      "years": 40,
+      "now": {
+        "close": 496.1,
+        "r1": 0.7,
+        "r5": -1.8,
+        "r20": -6.4,
+        "vs50": -4.3,
+        "vs200": 12.0,
+        "rsi": 41.3,
+        "vix": null,
+        "offHigh": -10.6
+      },
+      "range": {
+        "impliedPct": 3.3,
+        "typicalPct": 1.7,
+        "p90Pct": 4.3,
+        "withinNow": {
+          "n": 5127,
+          "pct": 80.6
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 5127,
+        "upPct": 52.0,
+        "median": 0.1,
+        "p10": -3.0,
+        "p90": 3.4
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 40,
+        "upPct": 60.0,
+        "median": 0.6,
+        "p10": -2.0,
+        "p90": 2.9
+      },
+      "setup": {
+        "desc": "5-day return in its second fifth, close below the 50-day average",
+        "n": 746,
+        "upPct": 52.7,
+        "median": 0.3,
+        "p10": -3.0,
+        "p90": 3.7,
+        "withinNowPct": 80.3,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-18",
+            "next": -4.5
+          },
+          {
+            "date": "2026-07-28",
+            "next": 14.7
+          },
+          {
+            "date": "2026-07-22",
+            "next": -2.2
+          },
+          {
+            "date": "2026-07-14",
+            "next": 4.2
+          },
+          {
+            "date": "2026-07-10",
+            "next": 0.0
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "META",
+      "years": 14,
+      "now": {
+        "close": 589.8,
+        "r1": -1.3,
+        "r5": -4.7,
+        "r20": -4.9,
+        "vs50": -12.4,
+        "vs200": -6.0,
+        "rsi": 40.2,
+        "vix": null,
+        "offHigh": -24.1
+      },
+      "range": {
+        "impliedPct": 4.2,
+        "typicalPct": 2.2,
+        "p90Pct": 6.3,
+        "withinNow": {
+          "n": 1825,
+          "pct": 84.6
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 1825,
+        "upPct": 53.2,
+        "median": 0.2,
+        "p10": -3.5,
+        "p90": 3.8
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 14,
+        "upPct": 64.3,
+        "median": 0.3,
+        "p10": -0.8,
+        "p90": 2.6
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average",
+        "n": 282,
+        "upPct": 56.4,
+        "median": 0.5,
+        "p10": -3.7,
+        "p90": 5.2,
+        "withinNowPct": 75.9,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-20",
+            "next": 5.2
+          },
+          {
+            "date": "2026-11-17",
+            "next": -3.7
+          },
+          {
+            "date": "2026-11-05",
+            "next": 6.0
+          },
+          {
+            "date": "2026-11-02",
+            "next": 3.8
+          },
+          {
+            "date": "2026-10-29",
+            "next": -2.8
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "NVDA",
+      "years": 27,
+      "now": {
+        "close": 155.4,
+        "r1": -5.9,
+        "r5": -0.1,
+        "r20": -28.7,
+        "vs50": -24.2,
+        "vs200": -23.4,
+        "rsi": 39.5,
+        "vix": null,
+        "offHigh": -35.1
+      },
+      "range": {
+        "impliedPct": 6.7,
+        "typicalPct": 2.2,
+        "p90Pct": 5.7,
+        "withinNow": {
+          "n": 3501,
+          "pct": 86.8
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 3501,
+        "upPct": 53.2,
+        "median": 0.3,
+        "p10": -5.1,
+        "p90": 5.7
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 27,
+        "upPct": 63.0,
+        "median": 0.6,
+        "p10": -3.2,
+        "p90": 2.9
+      },
+      "setup": {
+        "desc": "5-day return in its middle fifth, close below the 50-day average",
+        "n": 362,
+        "upPct": 51.4,
+        "median": 0.1,
+        "p10": -6.0,
+        "p90": 6.3,
+        "withinNowPct": 82.3,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-10-29",
+            "next": -5.4
+          },
+          {
+            "date": "2026-10-27",
+            "next": -2.0
+          },
+          {
+            "date": "2026-10-21",
+            "next": -5.0
+          },
+          {
+            "date": "2026-07-24",
+            "next": -4.8
+          },
+          {
+            "date": "2026-07-20",
+            "next": 4.3
+          }
+        ]
+      },
+      "shock": {
+        "desc": "last session down 3% or more",
+        "n": 804,
+        "upPct": 59.8,
+        "median": 1.0,
+        "p10": -6.1,
+        "p90": 8.3
+      },
+      "events": []
+    },
+    {
+      "ticker": "AMD",
+      "years": 46,
+      "now": {
+        "close": 413.3,
+        "r1": -8.9,
+        "r5": -17.9,
+        "r20": -26.2,
+        "vs50": -24.9,
+        "vs200": -4.3,
+        "rsi": 38.7,
+        "vix": null,
+        "offHigh": -36.4
+      },
+      "range": {
+        "impliedPct": 8.2,
+        "typicalPct": 4.1,
+        "p90Pct": 10.9,
+        "withinNow": {
+          "n": 5884,
+          "pct": 90.0
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 5884,
+        "upPct": 47.9,
+        "median": 0.0,
+        "p10": -5.4,
+        "p90": 6.2
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 46,
+        "upPct": 56.5,
+        "median": 0.9,
+        "p10": -3.9,
+        "p90": 4.9
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average",
+        "n": 1105,
+        "upPct": 49.0,
+        "median": 0.0,
+        "p10": -5.4,
+        "p90": 7.4,
+        "withinNowPct": 86.7,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-20",
+            "next": -2.6
+          },
+          {
+            "date": "2026-11-06",
+            "next": 14.7
+          },
+          {
+            "date": "2026-11-04",
+            "next": -8.1
+          },
+          {
+            "date": "2026-11-02",
+            "next": 4.7
+          },
+          {
+            "date": "2026-10-22",
+            "next": 4.6
+          }
+        ]
+      },
+      "shock": {
+        "desc": "prior week down 5% or more",
+        "n": 1585,
+        "upPct": 50.2,
+        "median": 0.1,
+        "p10": -5.5,
+        "p90": 7.6
+      },
+      "events": []
+    },
+    {
+      "ticker": "JPM",
+      "years": 46,
+      "now": {
+        "close": 317.1,
+        "r1": 0.1,
+        "r5": -3.9,
+        "r20": -5.6,
+        "vs50": -5.5,
+        "vs200": -1.8,
+        "rsi": 37.3,
+        "vix": null,
+        "offHigh": -12.7
+      },
+      "range": {
+        "impliedPct": 2.4,
+        "typicalPct": 1.3,
+        "p90Pct": 3.4,
+        "withinNow": {
+          "n": 5884,
+          "pct": 70.6
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 5884,
+        "upPct": 51.0,
+        "median": 0.1,
+        "p10": -3.0,
+        "p90": 3.3
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 46,
+        "upPct": 50.0,
+        "median": 0.0,
+        "p10": -2.7,
+        "p90": 3.3
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average",
+        "n": 998,
+        "upPct": 52.6,
+        "median": 0.2,
+        "p10": -3.8,
+        "p90": 4.6,
+        "withinNowPct": 59.5,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-20",
+            "next": 2.1
+          },
+          {
+            "date": "2026-11-18",
+            "next": -4.2
+          },
+          {
+            "date": "2026-10-02",
+            "next": 0.2
+          },
+          {
+            "date": "2026-09-28",
+            "next": -1.7
+          },
+          {
+            "date": "2026-09-24",
+            "next": -0.6
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    },
+    {
+      "ticker": "TQQQ",
+      "years": 16,
+      "now": {
+        "close": 46.2,
+        "r1": -5.9,
+        "r5": -10.8,
+        "r20": -35.0,
+        "vs50": -32.0,
+        "vs200": -29.4,
+        "rsi": 36.4,
+        "vix": null,
+        "offHigh": -46.8
+      },
+      "range": {
+        "impliedPct": 8.7,
+        "typicalPct": 3.6,
+        "p90Pct": 9.8,
+        "withinNow": {
+          "n": 2111,
+          "pct": 91.2
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 2111,
+        "upPct": 57.2,
+        "median": 0.8,
+        "p10": -6.3,
+        "p90": 6.3
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 16,
+        "upPct": 75.0,
+        "median": 0.8,
+        "p10": -2.4,
+        "p90": 5.0
+      },
+      "setup": {
+        "desc": "5-day return in its lowest fifth, close below the 50-day average",
+        "n": 361,
+        "upPct": 57.9,
+        "median": 1.4,
+        "p10": -7.6,
+        "p90": 9.6,
+        "withinNowPct": 79.5,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-20",
+            "next": 12.1
+          },
+          {
+            "date": "2026-11-18",
+            "next": -21.4
+          },
+          {
+            "date": "2026-11-16",
+            "next": -1.1
+          },
+          {
+            "date": "2026-11-10",
+            "next": 5.9
+          },
+          {
+            "date": "2026-11-06",
+            "next": 8.2
+          }
+        ]
+      },
+      "shock": {
+        "desc": "prior week down 5% or more",
+        "n": 495,
+        "upPct": 59.0,
+        "median": 1.6,
+        "p10": -7.4,
+        "p90": 9.3
+      },
+      "events": []
+    },
+    {
+      "ticker": "GOOG",
+      "years": 22,
+      "now": {
+        "close": 276.6,
+        "r1": -1.1,
+        "r5": -0.4,
+        "r20": -12.7,
+        "vs50": -12.7,
+        "vs200": -17.2,
+        "rsi": 38.8,
+        "vix": null,
+        "offHigh": -30.6
+      },
+      "range": {
+        "impliedPct": 3.6,
+        "typicalPct": 1.7,
+        "p90Pct": 4.8,
+        "withinNow": {
+          "n": 2801,
+          "pct": 86.1
+        },
+        "withinImplied": null
+      },
+      "all": {
+        "n": 2801,
+        "upPct": 54.8,
+        "median": 0.2,
+        "p10": -2.7,
+        "p90": 3.0
+      },
+      "season": {
+        "label": "Week of Thanksgiving",
+        "n": 22,
+        "upPct": 50.0,
+        "median": 0.0,
+        "p10": -1.1,
+        "p90": 3.8
+      },
+      "setup": {
+        "desc": "5-day return in its second fifth, close below the 50-day average",
+        "n": 374,
+        "upPct": 56.7,
+        "median": 0.4,
+        "p10": -3.0,
+        "p90": 3.1,
+        "withinNowPct": 84.5,
+        "relaxed": false,
+        "examples": [
+          {
+            "date": "2026-11-16",
+            "next": -0.7
+          },
+          {
+            "date": "2026-10-01",
+            "next": 2.7
+          },
+          {
+            "date": "2026-09-25",
+            "next": -1.1
+          },
+          {
+            "date": "2026-09-23",
+            "next": 1.8
+          },
+          {
+            "date": "2026-09-11",
+            "next": 1.8
+          }
+        ]
+      },
+      "shock": null,
+      "events": []
+    }
+  ]
+}
